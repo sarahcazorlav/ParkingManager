@@ -1,0 +1,6 @@
+@ParkingManager.Api_HostAddress = http://localhost:5044
+
+GET {{ParkingManager.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

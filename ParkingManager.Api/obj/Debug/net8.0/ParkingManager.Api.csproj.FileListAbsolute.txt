@@ -1,0 +1,7 @@
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.csproj.AssemblyReference.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.AssemblyInfoInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.AssemblyInfo.cs
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,5 @@
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Infraestructure\obj\Debug\net8.0\ParkingManager.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Infraestructure\obj\Debug\net8.0\ParkingManager.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Infraestructure\obj\Debug\net8.0\ParkingManager.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Infraestructure\obj\Debug\net8.0\ParkingManager.Infraestructure.AssemblyInfo.cs
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Infraestructure\obj\Debug\net8.0\ParkingManager.Infraestructure.csproj.CoreCompileInputs.cache

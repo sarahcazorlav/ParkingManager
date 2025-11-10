@@ -1,0 +1,12 @@
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\bin\Debug\net8.0\ParkingManager.Core.deps.json
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\bin\Debug\net8.0\ParkingManager.Core.dll
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\bin\Debug\net8.0\ParkingManager.Core.pdb
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.csproj.AssemblyReference.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.AssemblyInfoInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.AssemblyInfo.cs
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.dll
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\refint\ParkingManager.Core.dll
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.pdb
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ref\ParkingManager.Core.dll

@@ -1,0 +1,1368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\parkingmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\parkingmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\parkingmanager.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\parkingmanager.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\registrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\registrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\disponibilidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\disponibilidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\tarifarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\tarifarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\configurations\\vehiculoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\configurations\\vehiculoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\configurations\\tarifaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\configurations\\tarifaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\configurations\\registroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\configurations\\registroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\parkingmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\parkingmanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\vehiculovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\vehiculovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\vehiculodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\vehiculodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\usuariovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\usuariovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\usuariodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\usuariodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\tarifavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\tarifavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\tarifadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\tarifadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\registrovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\registrovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\registrodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\registrodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\disponibilidadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\disponibilidadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\validators\\disponibilidaddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\disponibilidaddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\vehiculoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\queries\\vehiculoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\usuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\queries\\usuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\tarifaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\queries\\tarifaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\registroquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\queries\\registroquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\disponibilidadquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\queries\\disponibilidadquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\vehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\dtos\\vehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\tarifadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\dtos\\tarifadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\disponibilidaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\dtos\\disponibilidaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\parkingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\parkingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\data\\configurations\\disponibilidadconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\data\\configurations\\disponibilidadconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\services\\tarifaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\services\\tarifaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\services\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\services\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\services\\disponibilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\services\\disponibilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\vehiculoqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\vehiculoqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\usuarioqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\usuarioqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\tarifaqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\tarifaqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\paginationqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\paginationqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\registroqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\registroqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\queryfilters\\disponibilidadqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\queryfilters\\disponibilidadqueryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\ivehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\ivehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\itarifaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\itarifaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\itarifarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\itarifarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iregistroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iregistrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iregistrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\idisponibilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\idisponibilidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\idisponibilidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\idisponibilidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\idappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\idappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\enum\\databaseprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\enum\\databaseprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\disponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\disponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\getbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\getbyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Program.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T18:48:24.002Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingManager.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\ParkingManager.Api.csproj",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\ParkingManager.Api.csproj",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\ParkingManager.Api.csproj",
+              "RelativeToolTip": "ParkingManager.Api\\ParkingManager.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T23:06:17.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingManager.Infraestructure",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T19:27:32.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehiculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:37:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:36:55.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehiculoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADgvxwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:29:28.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TarifaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:37:11.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:37:27.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisponibilidadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:36:39.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:36:17.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TarifaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:28:43.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Vehiculo.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\Vehiculo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:15:21.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:29:06.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tarifa.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Tarifa.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Tarifa.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Tarifa.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\Tarifa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:53.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistroConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:28:24.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Registro.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Registro.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Registro.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\Registro.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA3wA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:40.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:33:35.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParkingManager.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\ParkingManager.Core.csproj",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\ParkingManager.Core.csproj",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\ParkingManager.Core.csproj",
+              "RelativeToolTip": "ParkingManager.Core\\ParkingManager.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T18:50:17.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehiculoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\VehiculoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\VehiculoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\VehiculoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\VehiculoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:40:56.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VehiculoDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:40:40.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuarioValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:40:23.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:40:06.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TarifaValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\TarifaValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\TarifaValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\TarifaValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\TarifaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:39:41.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TarifaDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:39:22.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegistroValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:38:57.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegistroDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:38:38.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DisponibilidadValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:38:21.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DisponibilidadDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:38:05.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehiculoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:35:54.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsuarioQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:35:38.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TarifaQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:35:20.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegistroQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:35:03.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DisponibilidadQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:34:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:34:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:33:52.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VehiculoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:33:04.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:32:43.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TarifaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:32:24.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegistroDto.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:32:05.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DisponibilidadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:31:42.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ParkingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:29:52.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DisponibilidadConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:28:07.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\VehiculoService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Services\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:27:11.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:26:49.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TarifaService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\TarifaService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\TarifaService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\TarifaService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Services\\TarifaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:26:28.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\RegistroService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\RegistroService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\RegistroService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Services\\RegistroService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:26:08.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DisponibilidadService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\DisponibilidadService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\DisponibilidadService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\DisponibilidadService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Services\\DisponibilidadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:25:43.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "VehiculoQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:25:19.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UsuarioQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:25:02.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TarifaQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:24:37.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RegistroQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:24:07.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PaginationQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:23:55.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DisponibilidadQueryFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
+              "RelativeToolTip": "ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:23:36.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IVehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:22:58.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IVehiculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:22:40.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:22:18.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:21:58.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:21:41.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ITarifaService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ITarifaService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\ITarifaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:21:23.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ITarifaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:20:58.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:20:22.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IRegistroService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRegistroService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IRegistroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:20:04.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IRegistroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:19:43.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IDisponibilidadService.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:19:17.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IDisponibilidadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:18:57.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:18:37.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IDapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDapperContext.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDapperContext.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDapperContext.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IDapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:18:09.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:17:43.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "BussinesException.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:17:13.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DatabaseProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Enum\\DatabaseProvider.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Enum\\DatabaseProvider.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Enum\\DatabaseProvider.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Enum\\DatabaseProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:16:42.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Usuario.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:15:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Disponibilidad.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Disponibilidad.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Disponibilidad.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Disponibilidad.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\Disponibilidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:26.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:14:14.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\PagedList.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\PagedList.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\PagedList.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\PagedList.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:12:22.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Pagination.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Pagination.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\Pagination.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:12:36.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ResponseData.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:12:50.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Message.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\Message.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Message.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:12:09.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GetByIdRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:11:52.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ParkingManager.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",
+              "RelativeToolTip": "Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T23:06:58.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
