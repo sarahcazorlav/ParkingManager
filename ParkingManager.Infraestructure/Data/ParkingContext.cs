@@ -12,7 +12,7 @@ namespace ParkingManager.Infrastructure.Data
         {
         }
 
-        // 👇 Agrega todos los DbSet que representen tus tablas
+        //todos los DbSet que representen tus tablas
         public DbSet<Usuario> Usuarios { get; set; } = null!;
         public DbSet<Vehiculo> Vehiculos { get; set; } = null!;
         public DbSet<Registro> Registros { get; set; } = null!;
@@ -21,7 +21,7 @@ namespace ParkingManager.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // 👇 Configuraciones (si las tienes en carpetas separadas)
+            //Configuraciones
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ParkingContext).Assembly);
         }
     }

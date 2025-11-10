@@ -45,7 +45,7 @@ namespace Parking.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Vehiculo vehiculo)
         {
-            if (id != vehiculo.IdVehiculo)
+            if (id != vehiculo.Id)
                 return BadRequest("El ID no coincide");
 
             await _vehiculoRepository.UpdateAsync(vehiculo);

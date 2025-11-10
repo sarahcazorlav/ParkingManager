@@ -2,8 +2,10 @@
 
 namespace ParkingManager.Core.Interfaces
 {
-    public interface IRegistroRepository
+    public interface IRegistroRepository : IBaseRepository<Registro>
     {
+        Task<IEnumerable<Registro>> GetRegistrosActivosAsync();
+        Task<IEnumerable<Registro>> GetRegistrosPorUsuarioAsync(int usuarioId);
         Task<IEnumerable<Registro>> GetAllAsync();
         Task<Registro?> GetByIdAsync(int id);
         Task AddAsync(Registro registro);

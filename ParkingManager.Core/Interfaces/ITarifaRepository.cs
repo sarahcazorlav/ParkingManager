@@ -3,7 +3,7 @@ using ParkingManager.Core.QueryFilters;
 
 namespace ParkingManager.Core.Interfaces
 {
-    public interface ITarifaRepository
+    public interface ITarifaRepository : IBaseRepository<Tarifa>
     {
         Task<IEnumerable<Tarifa>> GetAllAsync();
         Task<Tarifa?> GetByIdAsync(int id);
@@ -11,6 +11,7 @@ namespace ParkingManager.Core.Interfaces
         Task UpdateAsync(Tarifa tarifa);
         Task DeleteAsync(int id);
         Task<IEnumerable<Tarifa>> GetTarifasAsync(TarifaQueryFilter filters);
+        Task<Tarifa?> GetTarifaPorTipoVehiculoAsync(string tipoVehiculo);
         Task<Tarifa?> GetTarifaByIdAsync(int id);
         Task InsertTarifaAsync(Tarifa tarifa);
         Task UpdateTarifaAsync(Tarifa tarifa);

@@ -1,18 +1,13 @@
-﻿using ParkingManager.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-
 namespace ParkingManager.Core.Interfaces
 {
-    public interface IBaseRepository<T> where T : BaseEntity
+    public interface IBaseRepository<T> where T : class
     {
-        Task<IEnumerable<T>> GetAll();
-        Task<T> GetById(int id);
-        Task Add(T entity);
-        Task Update(T entity);
-        Task Delete(int id);
+        Task<IEnumerable<T>> GetAllAsync();
+        Task<T?> GetByIdAsync(int id);
+        Task AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(int id);
     }
 }

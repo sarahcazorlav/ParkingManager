@@ -3,55 +3,64 @@ using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
 using ParkingManager.Infrastructure.Data;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ParkingManager.Infrastructure.Repositories
 {
-    public class UsuarioRepository : IUsuarioRepository
+    public class UsuarioRepository : BaseRepository<Usuario>, IUsuarioRepository
     {
-        private readonly ParkingContext _context;
+        public UsuarioRepository(ParkingContext context) : base(context) { }
 
-        public UsuarioRepository(ParkingContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<IEnumerable<Usuario>> GetUsuariosAsync(UsuarioQueryFilter filters)
+        public async Task<IEnumerable<Usuario>> GetUsuariosAsync(string? nombre = null)
         {
             var query = _context.Usuarios.AsQueryable();
 
-            if (filters.Id != null)
-                query = query.Where(u => u.Id == filters.Id);
+            if (!string.IsNullOrEmpty(nombre))
+                query = query.Where(u => u.Nombre.Contains(nombre) || u.Apellido.Contains(nombre));
 
-            if (!string.IsNullOrEmpty(filters.Nombre))
-                query = query.Where(u => u.Nombre.Contains(filters.Nombre));
-            return await query.ToListAsync();
+            return await query
+                .Include(u => u.Vehiculos)
+                .OrderBy(u => u.Nombre)
+                .ToListAsync();
         }
 
         public async Task<Usuario?> GetUsuarioByIdAsync(int id)
         {
-            return await _context.Usuarios.FindAsync(id);
+            return await _context.Usuarios
+                .Include(u => u.Vehiculos)
+                .FirstOrDefaultAsync(u => u.Id == id);
         }
 
-        public async Task InsertUsuarioAsync(Usuario usuario)
+        public Task<IEnumerable<Usuario>> GetUsuariosAsync(UsuarioQueryFilter filters)
         {
-            await _context.Usuarios.AddAsync(usuario);
-            await _context.SaveChangesAsync();
+            throw new NotImplementedException();
         }
 
-        public async Task UpdateUsuarioAsync(Usuario usuario)
+        public Task<Usuario?> GetByUsernameAsync(string username)
         {
-            _context.Usuarios.Update(usuario);
-            await _context.SaveChangesAsync();
+            throw new NotImplementedException();
         }
 
-        public async Task DeleteUsuarioAsync(int id)
+        public Task<bool> ExistsByEmailAsync(string email)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario != null)
-            {
-                _context.Usuarios.Remove(usuario);
-                await _context.SaveChangesAsync();
-            }
+            throw new NotImplementedException();
+        }
+
+        public Task InsertUsuarioAsync(Usuario usuario)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateUsuarioAsync(Usuario usuario)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DeleteUsuarioAsync(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

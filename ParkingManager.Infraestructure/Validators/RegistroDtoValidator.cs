@@ -8,13 +8,13 @@ namespace ParkingManager.Infrastructure.Validators
         public RegistroDtoValidator()
         {
             RuleFor(r => r.VehiculoId)
-                .GreaterThan(0).WithMessage("Debe especificar el vehículo.");
+                .GreaterThan(0).WithMessage("Debe especificar el vehículo");
 
             RuleFor(r => r.TarifaId)
-                .GreaterThan(0).WithMessage("Debe especificar una tarifa válida.");
+                .GreaterThan(0).WithMessage("Debe especificar una tarifa válida");
 
             RuleFor(r => r.HoraEntrada)
-                .LessThanOrEqualTo(DateTime.Now).WithMessage("La hora de entrada no puede ser futura.");
+                .LessThanOrEqualTo(DateTime.Now).WithMessage("La hora de entrada no puede ser futura");
         }
     }
 }

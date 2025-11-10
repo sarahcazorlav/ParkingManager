@@ -1,14 +1,5 @@
-﻿namespace ParkingManager.Api.Responses
-{
-    public class ApiResponse
-    {
-    }
-}
-
-
-using SocialMedia.Core.CustomEntities;
-
-namespace SocialMedia.Api.Responses
+﻿using ParkingManager.Core.CustomEntities;
+namespace ParkingManager.Api.Responses
 {
     public class ApiResponse<T>
     {

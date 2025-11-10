@@ -1,54 +1,50 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ParkingManager.Core.Interfaces;
 using ParkingManager.Infrastructure.Data;
 using System.Collections.Generic;
-using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace ParkingManager.Infrastructure.Repositories
 {
-    public class BaseRepository<TEntity> where TEntity : class
+    public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         protected readonly ParkingContext _context;
-        protected readonly DbSet<TEntity> _dbSet;
+        protected readonly DbSet<T> _entities;
 
         public BaseRepository(ParkingContext context)
         {
             _context = context;
-            _dbSet = context.Set<TEntity>();
+            _entities = context.Set<T>();
         }
 
-        public virtual async Task<IEnumerable<TEntity>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            return await _dbSet.ToListAsync();
+            return await _entities.ToListAsync();
         }
 
-        public virtual async Task<TEntity?> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync(int id)
         {
-            return await _dbSet.FindAsync(id);
+            return await _entities.FindAsync(id);
         }
 
-        public virtual async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate)
+        public async Task AddAsync(T entity)
         {
-            return await _dbSet.Where(predicate).ToListAsync();
+            await _entities.AddAsync(entity);
         }
 
-        public virtual async Task AddAsync(TEntity entity)
+        public async Task UpdateAsync(T entity)
         {
-            await _dbSet.AddAsync(entity);
+            _entities.Update(entity);
+            await Task.CompletedTask;
         }
 
-        public virtual void Update(TEntity entity)
+        public async Task DeleteAsync(int id)
         {
-            _dbSet.Update(entity);
-        }
-
-        public virtual void Delete(TEntity entity)
-        {
-            _dbSet.Remove(entity);
-        }
-
-        public async Task SaveChangesAsync()
-        {
-            await _context.SaveChangesAsync();
+            var entity = await GetByIdAsync(id);
+            if (entity != null)
+            {
+                _entities.Remove(entity);
+            }
         }
     }
 }

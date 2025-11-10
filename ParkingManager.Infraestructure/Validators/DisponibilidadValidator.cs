@@ -8,11 +8,11 @@ namespace ParkingManager.Infrastructure.Validators
         public DisponibilidadValidator()
         {
             RuleFor(d => d.Zona)
-                .NotEmpty().WithMessage("Debe indicar la zona.");
+                .NotEmpty().WithMessage("Debe indicar la zona");
 
             RuleFor(d => d.EspaciosLibres)
                 .GreaterThanOrEqualTo(0)
-                .WithMessage("Los espacios libres no pueden ser negativos.");
+                .WithMessage("Los espacios libres no pueden ser negativos");
         }
     }
 }

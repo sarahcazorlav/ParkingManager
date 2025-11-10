@@ -5,13 +5,13 @@ namespace ParkingManager.Core.QueryFilters
 {
     public class TarifaQueryFilter : PaginationQueryFilter
     {
-        [SwaggerSchema("Tipo de vehículo asociado a la tarifa")]
+        [SwaggerSchema("Tipo de vehiculo asociado a la tarifa")]
         public string? TipoVehiculo { get; set; }
 
-        [SwaggerSchema("Monto mínimo de la tarifa")]
+        [SwaggerSchema("Monto minimo de la tarifa")]
         public decimal? MontoMinimo { get; set; }
 
-        [SwaggerSchema("Monto máximo de la tarifa")]
+        [SwaggerSchema("Monto maximo de la tarifa")]
         public decimal? MontoMaximo { get; set; }
 
         [SwaggerSchema("Fecha de inicio de vigencia")]

@@ -9,10 +9,10 @@ namespace ParkingManager.Infrastructure.Validators
         {
             RuleFor(v => v.Placa)
                 .NotEmpty().Length(5, 10)
-                .WithMessage("La placa debe tener entre 5 y 10 caracteres.");
+                .WithMessage("La placa debe tener entre 5 y 10 caracteres");
 
             RuleFor(v => v.Tipo)
-                .NotEmpty().WithMessage("Debe especificar el tipo de vehículo.");
+                .NotEmpty().WithMessage("Debe especificar el tipo de vehículo");
         }
     }
 }

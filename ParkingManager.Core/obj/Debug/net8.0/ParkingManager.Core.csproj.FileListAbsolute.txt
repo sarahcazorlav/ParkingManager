@@ -6,6 +6,7 @@ C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.AssemblyInfoInputs.cache
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.AssemblyInfo.cs
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.sourcelink.json
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.dll
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\refint\ParkingManager.Core.dll
 C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Core\obj\Debug\net8.0\ParkingManager.Core.pdb

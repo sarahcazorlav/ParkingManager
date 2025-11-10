@@ -10,7 +10,7 @@ namespace ParkingManager.Core.QueryFilters
         [SwaggerSchema("Nombre del usuario")]
         public string? Nombre { get; set; }
 
-        [SwaggerSchema("Correo electrónico del usuario")]
+        [SwaggerSchema("Correo del usuario")]
         public string? Correo { get; set; }
         public string? Email { get; set; }
     }

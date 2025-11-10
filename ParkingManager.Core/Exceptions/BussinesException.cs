@@ -1,21 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Exceptions
 {
-    public class BussinesException : Exception
+    public class BusinessException : Exception
     {
-        public BussinesException()
-        {
+        public string? ErrorCode { get; }
 
+        public BusinessException()
+        {
         }
 
-        public BussinesException(string message) : base(message)
+        public BusinessException(string message)
+            : base(message)
         {
+        }
 
+        public BusinessException(string message, string errorCode)
+            : base(message)
+        {
+            ErrorCode = errorCode;
+        }
+
+        public BusinessException(string message, Exception innerException)
+            : base(message, innerException)
+        {
         }
     }
 }

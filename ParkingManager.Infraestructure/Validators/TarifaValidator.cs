@@ -10,10 +10,10 @@ namespace ParkingManager.Infrastructure.Validators
         public TarifaValidator()
         {
             RuleFor(t => t.TipoVehiculo)
-                .NotEmpty().WithMessage("Debe indicar el tipo de vehículo.");
+                .NotEmpty().WithMessage("Debe indicar el tipo de vehículo");
 
             RuleFor(t => t.MontoPorHora)
-                .GreaterThan(0).WithMessage("La tarifa debe ser mayor a 0.");
+                .GreaterThan(0).WithMessage("La tarifa debe ser mayor a 0");
         }
     }
 }

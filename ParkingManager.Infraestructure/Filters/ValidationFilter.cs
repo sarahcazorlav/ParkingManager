@@ -20,7 +20,7 @@ namespace ParkingManager.Infrastructure.Filters
 
                 context.Result = new BadRequestObjectResult(new
                 {
-                    Message = "Error de validación",
+                    Message = "Error de validacion",
                     Errors = errors
                 });
             }

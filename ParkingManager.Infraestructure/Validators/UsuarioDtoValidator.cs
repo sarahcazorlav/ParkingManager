@@ -8,13 +8,13 @@ namespace ParkingManager.Infrastructure.Validators
         public UsuarioDtoValidator()
         {
             RuleFor(u => u.Nombre)
-                .NotEmpty().WithMessage("El nombre es obligatorio.");
+                .NotEmpty().WithMessage("El nombre es obligatorio");
 
             RuleFor(u => u.Correo)
-                .EmailAddress().WithMessage("Debe proporcionar un correo válido.");
+                .EmailAddress().WithMessage("Debe proporcionar un correo válido");
 
             RuleFor(u => u.Rol)
-                .NotEmpty().WithMessage("Debe especificar el rol del usuario.");
+                .NotEmpty().WithMessage("Debe especificar el rol del usuario");
         }
     }
 }

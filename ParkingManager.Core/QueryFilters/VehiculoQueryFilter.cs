@@ -4,10 +4,10 @@ namespace ParkingManager.Core.QueryFilters
 {
     public class VehiculoQueryFilter : PaginationQueryFilter
     {
-        [SwaggerSchema("Placa del vehículo")]
+        [SwaggerSchema("Placa del vehiculo")]
         public string? Placa { get; set; }
 
-        [SwaggerSchema("Tipo de vehículo (Auto, Moto, etc.)")]
+        [SwaggerSchema("Tipo de vehiculo (Auto, Moto, etc.)")]
         public string? Tipo { get; set; }
 
         [SwaggerSchema("ID del usuario propietario")]

@@ -11,7 +11,7 @@ namespace ParkingManager.Infrastructure.Filters
         {
             var response = new
             {
-                Message = "Ocurrió un error interno en el servidor.",
+                Message = "Ocurrio un error interno en el servidor.",
                 Error = context.Exception.Message
             };
 

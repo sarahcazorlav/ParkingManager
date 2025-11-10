@@ -21,12 +21,12 @@ namespace ParkingManager.Api.Controllers
             {
                 bool canConnect = _context.Database.CanConnect();
                 return Ok(canConnect
-                    ? "✅ Conexión exitosa con la base de datos."
-                    : "❌ No se pudo conectar a la base de datos.");
+                    ? "Conexión exitosa con la base de datos."
+                    : "No se pudo conectar a la base de datos.");
             }
             catch (Exception ex)
             {
-                return BadRequest($"⚠️ Error: {ex.Message}");
+                return BadRequest($"Error: {ex.Message}");
             }
         }
     }

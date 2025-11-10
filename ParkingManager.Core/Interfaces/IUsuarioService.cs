@@ -1,6 +1,6 @@
 ﻿using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
-using ParkingManager.Core.CustomEntities; // si tienes ResponseData o paginación
+using ParkingManager.Core.CustomEntities;
 
 namespace ParkingManager.Core.Services
 {

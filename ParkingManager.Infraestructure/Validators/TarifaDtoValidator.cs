@@ -8,10 +8,10 @@ namespace ParkingManager.Infrastructure.Validators
         public TarifaDtoValidator()
         {
             RuleFor(t => t.TipoVehiculo)
-                .NotEmpty().WithMessage("Debe indicar el tipo de vehículo.");
+                .NotEmpty().WithMessage("Debe indicar el tipo de vehículo");
 
             RuleFor(t => t.PrecioPorHora)
-                .GreaterThan(0).WithMessage("El precio por hora debe ser mayor a 0.");
+                .GreaterThan(0).WithMessage("El precio por hora debe ser mayor a 0");
         }
     }
 }

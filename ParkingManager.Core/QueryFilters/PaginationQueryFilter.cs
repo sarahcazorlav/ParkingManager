@@ -4,10 +4,10 @@ namespace ParkingManager.Core.QueryFilters
 {
     public abstract class PaginationQueryFilter
     {
-        [SwaggerSchema("Cantidad de registros por página")]
+        [SwaggerSchema("Cantidad de registros por pagina")]
         public int PageSize { get; set; } = 10;
 
-        [SwaggerSchema("Número de página a mostrar")]
+        [SwaggerSchema("Numero de página a mostrar")]
         public int PageNumber { get; set; } = 1;
     }
 }
