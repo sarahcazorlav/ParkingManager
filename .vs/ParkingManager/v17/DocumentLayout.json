@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\usuariov2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\usuariov2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\testdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\testdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\disponibilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\disponibilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\validators\\usuariodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\disponibilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\disponibilidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\registrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\registrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\parkingmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\parkingmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\repositories\\vehiculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -326,20 +346,8 @@
       "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\customentities\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\responses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\controllers\\testdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\controllers\\testdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.api\\parkingmanager.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{959FD874-7FD5-4CFC-B872-60324F836C59}|ParkingManager.Api\\ParkingManager.Api.csproj|solutionrelative:parkingmanager.api\\parkingmanager.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{746FFD90-F4C0-4771-87AF-486F3CD0BFAF}|ParkingManager.Core\\ParkingManager.Core.csproj|solutionrelative:parkingmanager.core\\exceptions\\bussinesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\queries\\disponibilidadquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -384,10 +392,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|solutionrelative:parkingmanager.infraestructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA309A5F-687C-44B3-8608-86BE0D275EB0}|ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj|c:\\users\\melissa\\desktop\\tecweb\\parkingmanager\\parkingmanager.infraestructure\\dtos\\vehiculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -455,17 +459,17 @@
         },
         {
           "DockedHeight": 303,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Program.cs",
               "RelativeDocumentMoniker": "ParkingManager.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Program.cs",
               "RelativeToolTip": "ParkingManager.Api\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAD4vyoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T18:48:24.002Z",
               "IsPinned": true,
@@ -473,46 +477,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SecurityController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\SecurityController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\SecurityController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\SecurityController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\SecurityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TestDbController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TestDbController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TestDbController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TestDbController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TestDbController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T11:02:02.25Z",
+              "WhenOpened": "2025-11-10T23:16:17.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:01:15.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "ParkingManager.Api\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwDMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T01:04:28.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResponseData.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
-              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UsuarioV2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\UsuarioV2Controller.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\UsuarioV2Controller.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\UsuarioV2Controller.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\UsuarioV2Controller.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:12:50.162Z",
+              "WhenOpened": "2025-12-04T11:22:22.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwCkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:16:01.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Responses\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Responses\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Responses\\ApiResponse.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Responses\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:57:41.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TarifaController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TarifaController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TarifaController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TarifaController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TarifaController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T01:03:36.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SecurityController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\SecurityController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\SecurityController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\SecurityController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\SecurityController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:02:02.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\RegistroController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T01:02:37.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisponibilidadController.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
+              "RelativeToolTip": "ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T01:02:05.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BussinesException.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "RelativeToolTip": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:17:13.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VehiculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:37:46.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:33:35.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Pagination.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Pagination.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\Pagination.cs",
@@ -525,20 +659,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ResponseData.cs",
+              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "RelativeToolTip": "ParkingManager.Core\\CustomEntities\\ResponseData.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T11:01:15.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T19:12:50.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "ValidationFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Filters\\ValidationFilter.cs",
@@ -550,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\Message.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\Message.cs",
@@ -562,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "UsuarioValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\UsuarioValidator.cs",
@@ -574,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "SecurityDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\SecurityDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\SecurityDtoValidator.cs",
@@ -586,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "RegistroRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\RegistroRepository.cs",
@@ -598,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UsuarioDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\UsuarioDtoValidator.cs",
@@ -610,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "RegistroQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\RegistroQueryFilter.cs",
@@ -622,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Registro.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Registro.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Registro.cs",
@@ -634,31 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DisponibilidadController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\DisponibilidadController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAEwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:02:05.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TarifaController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TarifaController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TarifaController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TarifaController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TarifaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:03:36.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "ParkingManager.Api.csproj",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\ParkingManager.Api.csproj",
               "RelativeDocumentMoniker": "ParkingManager.Api\\ParkingManager.Api.csproj",
@@ -670,31 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "VehiculoController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\VehiculoController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\VehiculoController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\VehiculoController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\VehiculoController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCkAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:16:01.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "VehiculoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
-              "RelativeToolTip": "ParkingManager.Infraestructure\\Repositories\\VehiculoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:37:46.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\UsuarioRepository.cs",
@@ -706,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\UnitOfWork.cs",
@@ -718,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "DisponibilidadRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\DisponibilidadRepository.cs",
@@ -730,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "IRegistroRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRegistroRepository.cs",
@@ -742,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "IDisponibilidadRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDisponibilidadRepository.cs",
@@ -754,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "DbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\DbConnectionFactory.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\DbConnectionFactory.cs",
@@ -766,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\BaseRepository.cs",
@@ -778,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "PaginationQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\PaginationQueryFilter.cs",
@@ -790,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "VehiculoService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\VehiculoService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\VehiculoService.cs",
@@ -802,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "RegistroService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\RegistroService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\RegistroService.cs",
@@ -814,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "DisponibilidadService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\DisponibilidadService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\DisponibilidadService.cs",
@@ -826,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "DisponibilidadQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\DisponibilidadQueryFilter.cs",
@@ -838,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "TarifaQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\TarifaQueryFilter.cs",
@@ -850,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "VehiculoQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\VehiculoQueryFilter.cs",
@@ -862,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "UsuarioQueryFilter.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\QueryFilters\\UsuarioQueryFilter.cs",
@@ -874,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "TarifaService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\TarifaService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\TarifaService.cs",
@@ -886,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "SecurityService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\SecurityService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\SecurityService.cs",
@@ -898,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "IDisponibilidadService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDisponibilidadService.cs",
@@ -910,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "ITarifaService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ITarifaService.cs",
@@ -922,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "IRegistroService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRegistroService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRegistroService.cs",
@@ -934,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "IVehiculoService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IVehiculoService.cs",
@@ -946,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "IVehiculoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IVehiculoRepository.cs",
@@ -958,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUsuarioService.cs",
@@ -970,19 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RegistroController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\RegistroController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\RegistroController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\RegistroController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\RegistroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:02:37.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\UsuarioDto.cs",
@@ -994,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "SecurityDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\SecurityDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\SecurityDto.cs",
@@ -1006,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "TarifaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\TarifaRepository.cs",
@@ -1018,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "DapperContext .cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\DapperContext .cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\DapperContext .cs",
@@ -1030,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "UsuarioQuery.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\UsuarioQuery.cs",
@@ -1042,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "SecurityRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Repositories\\SecurityRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Repositories\\SecurityRepository.cs",
@@ -1054,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "ParkingContext.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\ParkingContext.cs",
@@ -1066,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "RegistroConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\RegistroConfiguration.cs",
@@ -1078,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "DisponibilidadConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\DisponibilidadConfiguration.cs",
@@ -1090,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "TarifaConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\TarifaConfiguration.cs",
@@ -1102,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "VehiculoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\VehiculoConfiguration.cs",
@@ -1114,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "SecurityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\SecurityConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\SecurityConfiguration.cs",
@@ -1126,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "UsuarioConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Data\\Configurations\\UsuarioConfiguration.cs",
@@ -1138,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\UsuarioService.cs",
@@ -1150,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "PasswordService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Services\\PasswordService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Services\\PasswordService.cs",
@@ -1162,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUnitOfWork.cs",
@@ -1174,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IUsuarioRepository.cs",
@@ -1186,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "ISecurityService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ISecurityService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ISecurityService.cs",
@@ -1198,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "ISecurityRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ISecurityRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ISecurityRepository.cs",
@@ -1210,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "IPasswordService.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IPasswordService.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IPasswordService.cs",
@@ -1222,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "PasswordOptions.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\PasswordOptions.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\PasswordOptions.cs",
@@ -1234,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "RoleType.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Enum\\RoleType.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Enum\\RoleType.cs",
@@ -1246,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "DatabaseProvider.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Enum\\DatabaseProvider.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Enum\\DatabaseProvider.cs",
@@ -1258,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\UserLogin.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\UserLogin.cs",
@@ -1270,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "Disponibilidad.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Disponibilidad.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Disponibilidad.cs",
@@ -1282,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "Tarifa.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Tarifa.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Tarifa.cs",
@@ -1294,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "Vehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Vehiculo.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Vehiculo.cs",
@@ -1306,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "Security.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Security.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Security.cs",
@@ -1318,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\Usuario.cs",
@@ -1330,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 77,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Entities\\BaseEntity.cs",
@@ -1342,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 78,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ParkingManager.Api\\appsettings.Development.json",
@@ -1354,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 79,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\appsettings.json",
               "RelativeDocumentMoniker": "ParkingManager.Api\\appsettings.json",
@@ -1366,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 80,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Melissa\\AppData\\Roaming\\Microsoft\\UserSecrets\\27acd6b9-c5de-4e05-b722-12da81aa313a\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\27acd6b9-c5de-4e05-b722-12da81aa313a\\secrets.json",
@@ -1378,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 81,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Mappings\\MappingProfile.cs",
@@ -1390,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 82,
               "Title": "GetByIdRequest.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\GetByIdRequest.cs",
@@ -1402,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "IDapperContext.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDapperContext.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDapperContext.cs",
@@ -1414,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "IDbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IDbConnectionFactory.cs",
@@ -1426,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\CustomEntities\\PagedList.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\CustomEntities\\PagedList.cs",
@@ -1438,31 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Responses\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Responses\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Responses\\ApiResponse.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Responses\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:57:41.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "TestDbController.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TestDbController.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Api\\Controllers\\TestDbController.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\Controllers\\TestDbController.cs",
-              "RelativeToolTip": "ParkingManager.Api\\Controllers\\TestDbController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:16:17.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 86,
               "Title": "ParkingManager.Api",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\ParkingManager.Api.csproj",
               "RelativeDocumentMoniker": "ParkingManager.Api\\ParkingManager.Api.csproj",
@@ -1473,19 +1522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "BussinesException.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Exceptions\\BussinesException.cs",
-              "RelativeToolTip": "ParkingManager.Core\\Exceptions\\BussinesException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:17:13.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "RegistroQuery.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\RegistroQuery.cs",
@@ -1497,7 +1534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "DisponibilidadQuery.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\DisponibilidadQuery.cs",
@@ -1509,7 +1546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "VehiculoDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\VehiculoDtoValidator.cs",
@@ -1521,7 +1558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "TarifaDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\TarifaDtoValidator.cs",
@@ -1533,7 +1570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "RegistroValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\RegistroValidator.cs",
@@ -1545,7 +1582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "RegistroDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\RegistroDtoValidator.cs",
@@ -1557,7 +1594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "DisponibilidadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\DisponibilidadValidator.cs",
@@ -1569,7 +1606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 94,
               "Title": "DisponibilidadDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Validators\\DisponibilidadDtoValidator.cs",
@@ -1581,7 +1618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 95,
               "Title": "VehiculoQuery.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\VehiculoQuery.cs",
@@ -1593,7 +1630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "TarifaQuery.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Queries\\TarifaQuery.cs",
@@ -1605,7 +1642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Mappings\\AutoMapperProfile.cs",
@@ -1617,19 +1654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "GlobalExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeToolTip": "ParkingManager.Infraestructure\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:33:35.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "VehiculoDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\VehiculoDto.cs",
@@ -1641,7 +1666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "TarifaDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\TarifaDto.cs",
@@ -1653,7 +1678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "RegistroDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\RegistroDto.cs",
@@ -1665,7 +1690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "DisponibilidadDto.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\DTOs\\DisponibilidadDto.cs",
@@ -1677,7 +1702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "ITarifaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\ITarifaRepository.cs",
@@ -1689,7 +1714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IRepository.cs",
@@ -1701,7 +1726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "ParkingManager.Core\\Interfaces\\IBaseRepository.cs",
@@ -1713,7 +1738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "ParkingManager.Infraestructure.csproj",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
               "RelativeDocumentMoniker": "ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
@@ -1725,7 +1750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "ParkingManager.Core.csproj",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Core\\ParkingManager.Core.csproj",
               "RelativeDocumentMoniker": "ParkingManager.Core\\ParkingManager.Core.csproj",
@@ -1737,7 +1762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "ParkingManager.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Estacionaminetos.Infraestructure\\ParkingManager.Infrastructure.csproj",

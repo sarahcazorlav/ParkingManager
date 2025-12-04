@@ -39,7 +39,6 @@ namespace ParkingManager.Api.Controllers
                 PageSize = pagedList.PageSize
             };
 
-            // Agregamos los metadatos en los encabezados de la respuesta
             Response.Headers.Add("X-Pagination-TotalCount", pagination.TotalCount.ToString());
             Response.Headers.Add("X-Pagination-PageSize", pagination.PageSize.ToString());
             Response.Headers.Add("X-Pagination-CurrentPage", pagination.CurrentPage.ToString());

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using ParkingManager.Core.Exceptions;
 using System.Net;
-using System.Threading;
 
 namespace ParkingManager.Infrastructure.Filters
 {
@@ -9,16 +9,38 @@ namespace ParkingManager.Infrastructure.Filters
     {
         public void OnException(ExceptionContext context)
         {
-            var response = new
+            if (context.Exception is BusinessException businessException)
             {
-                Message = "Ocurrio un error interno en el servidor.",
-                Error = context.Exception.Message
-            };
+                var validation = new
+                {
+                    Status = 400,
+                    Title = "Error de negocio",
+                    Detail = businessException.Message
+                };
 
-            context.Result = new ObjectResult(response)
+                var json = new
+                {
+                    errors = new[] { validation }
+                };
+
+                context.Result = new BadRequestObjectResult(json);
+                context.HttpContext.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+            }
+            else
             {
-                StatusCode = (int)HttpStatusCode.InternalServerError
-            };
+                var error = new
+                {
+                    Status = 500,
+                    Title = "Error interno del servidor",
+                    Detail = context.Exception.Message
+                };
+
+                context.Result = new ObjectResult(new { errors = new[] { error } })
+                {
+                    StatusCode = (int)HttpStatusCode.InternalServerError
+                };
+            }
+
             context.ExceptionHandled = true;
         }
     }

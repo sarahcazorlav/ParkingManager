@@ -14,25 +14,16 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ============================================
-// CONFIGURACIÓN DE SECRETOS
-// ============================================
 if (builder.Environment.IsDevelopment())
 {
     builder.Configuration.AddUserSecrets<Program>();
 }
 
-// ============================================
-// BASE DE DATOS
-// ============================================
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ParkingContext>(options =>
     options.UseSqlServer(connectionString));
 
-// ============================================
 // INYECCIÓN DE DEPENDENCIAS
-// ============================================
-// Dapper
 builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
 builder.Services.AddScoped<IDapperContext, DapperContext>();
 
@@ -52,15 +43,11 @@ builder.Services.AddSingleton<IPasswordService, PasswordService>();
 builder.Services.Configure<PasswordOptions>(
     builder.Configuration.GetSection("PasswordOptions"));
 
-// ============================================
 // FLUENT VALIDATION
-// ============================================
 builder.Services.AddValidatorsFromAssemblyContaining<UsuarioDtoValidator>();
 
 
-// ============================================
 // CONTROLADORES Y FILTROS
-// ============================================
 builder.Services.AddControllers(options =>
 {
     options.Filters.Add<GlobalExceptionFilter>();
@@ -73,9 +60,7 @@ builder.Services.AddControllers(options =>
         System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
-// ============================================
 // AUTENTICACIÓN JWT
-// ============================================
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -98,9 +83,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// ============================================
 // SWAGGER
-// ============================================
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -151,9 +134,6 @@ builder.Services.AddSwaggerGen(options =>
     options.EnableAnnotations();
 });
 
-// ============================================
-// CORS
-// ============================================
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -166,9 +146,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// ============================================
-// MIDDLEWARE
-// ============================================
+
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
