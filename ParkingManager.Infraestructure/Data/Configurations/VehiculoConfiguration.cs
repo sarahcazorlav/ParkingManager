@@ -8,28 +8,34 @@ namespace ParkingManager.Infrastructure.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Vehiculo> builder)
         {
-            builder.ToTable("Vehiculo");
+            builder.ToTable("Vehiculos");
 
-            builder.HasKey(v => v.Placa);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(v => v.Placa)
-                .IsRequired()
-                .HasMaxLength(20);
+            builder.Property(e => e.Placa)
+                .HasMaxLength(20)
+                .IsRequired();
 
-            builder.Property(v => v.Tipo)
-                .IsRequired()
+            builder.HasIndex(e => e.Placa).IsUnique();
+
+            builder.Property(e => e.Marca)
                 .HasMaxLength(50);
 
-            builder.Property(v => v.Marca)
-                .HasMaxLength(100);
+            builder.Property(e => e.Modelo)
+                .HasMaxLength(50);
 
-            builder.Property(v => v.Descripcion)
-                .HasMaxLength(250);
+            builder.Property(e => e.Color)
+                .HasMaxLength(30);
 
-            builder.HasOne(v => v.Usuario)
-                .WithMany(u => u.Vehiculos)
-                .HasForeignKey(v => v.IdUsuario)
-                .OnDelete(DeleteBehavior.NoAction);
+            builder.Property(e => e.TipoVehiculo)
+                .HasMaxLength(30)
+                .IsRequired();
+
+            builder.Property(e => e.FechaRegistro)
+                .HasDefaultValueSql("GETDATE()");
+
+            builder.Property(e => e.Activo)
+                .HasDefaultValue(true);
         }
     }
 }

@@ -1,43 +1,44 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
 
-namespace ParkingManager.Infrastructure.Services
+namespace ParkingManager.Core.Services
 {
     public class RegistroService : IRegistroService
     {
-        private readonly IRegistroRepository _registroRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public RegistroService(IRegistroRepository registroRepository)
+        public RegistroService(IUnitOfWork unitOfWork)
         {
-            _registroRepository = registroRepository;
+            _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<Registro>> GetRegistrosAsync(RegistroQueryFilter filters)
+        public async Task<PagedList<Registro>> GetRegistrosAsync(RegistroQueryFilter filters)
         {
-            var registros = await _registroRepository.GetAllAsync();
-
-            if (filters.VehiculoId.HasValue)
-                registros = registros.Where(r => r.VehiculoId == filters.VehiculoId);
-
-            if (filters.FechaEntrada.HasValue)
-                registros = registros.Where(r => r.FechaEntrada.Date == filters.FechaEntrada.Value.Date);
-
-            return registros;
+            var registros = await _unitOfWork.Registros.GetRegistrosAsync(filters);
+            var pagedList = PagedList<Registro>.Create(registros, filters.PageNumber, filters.PageSize);
+            return pagedList;
         }
 
-        public async Task<Registro?> GetRegistroAsync(int id) => await _registroRepository.GetByIdAsync(id);
-
-        public async Task InsertRegistroAsync(Registro registro) => await _registroRepository.AddAsync(registro);
-
-        public Task<bool> UpdateRegistroAsync(Registro registro)
+        public async Task<Registro?> GetRegistroByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Registros.GetRegistroByIdAsync(id);
         }
 
-        public Task<bool> DeleteRegistroAsync(int id)
+        public async Task InsertRegistroAsync(Registro registro)
         {
-            throw new NotImplementedException();
+            await _unitOfWork.Registros.InsertRegistroAsync(registro);
+        }
+
+        public async Task UpdateRegistroAsync(Registro registro)
+        {
+            await _unitOfWork.Registros.UpdateRegistroAsync(registro);
+        }
+
+        public async Task DeleteRegistroAsync(int id)
+        {
+            await _unitOfWork.Registros.DeleteRegistroAsync(id);
         }
     }
 }

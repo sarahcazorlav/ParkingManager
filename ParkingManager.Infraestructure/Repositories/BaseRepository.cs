@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Infrastructure.Data;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace ParkingManager.Infrastructure.Repositories
 {

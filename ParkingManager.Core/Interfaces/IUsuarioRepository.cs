@@ -8,7 +8,9 @@ namespace ParkingManager.Core.Interfaces
         Task<IEnumerable<Usuario>> GetUsuariosAsync(UsuarioQueryFilter filters);
         Task<Usuario?> GetUsuarioByIdAsync(int id);
         Task<Usuario?> GetByUsernameAsync(string username);
+        Task<Usuario?> GetByEmailAsync(string email);
         Task<bool> ExistsByEmailAsync(string email);
+        Task<bool> ExistsByUsernameAsync(string username);
         Task InsertUsuarioAsync(Usuario usuario);
         Task UpdateUsuarioAsync(Usuario usuario);
         Task DeleteUsuarioAsync(int id);

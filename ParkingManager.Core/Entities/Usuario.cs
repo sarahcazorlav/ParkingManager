@@ -1,16 +1,21 @@
-﻿namespace ParkingManager.Core.Entities
+﻿using ParkingManager.Core.Entities;
+
+namespace ParkingManager.Core.Entities
 {
-    public class Usuario
+    public class Usuario : BaseEntity
     {
-        public int Id { get; set; }
-        public string? Nombre { get; set; }
-        public string? Apellido { get; set; }
-        public string? Correo { get; set; }
+        public object Password;
+
+        public string Nombre { get; set; } = string.Empty;
+        public string Apellido { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
         public string? Telefono { get; set; }
-        public string? Rol { get; set; }
-        public string? Clave { get; set; }
-        public string Password { get; set; }
+        public string Rol { get; set; } = "Usuario"; // "Admin" o "Usuario"
+        public DateTime FechaRegistro { get; set; } = DateTime.UtcNow;
+        public bool Activo { get; set; } = true;
+
+        // Navegación
         public ICollection<Vehiculo>? Vehiculos { get; set; }
-        public object? Email { get; set; }
     }
 }

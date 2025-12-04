@@ -8,29 +8,37 @@ namespace ParkingManager.Infrastructure.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Registro> builder)
         {
-            builder.ToTable("Registro");
+            builder.ToTable("Registros");
 
-            builder.HasKey(r => r.Id);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(r => r.VehiculoPlaca)
-                .IsRequired()
-                .HasMaxLength(20);
+            builder.Property(e => e.FechaEntrada)
+                .HasDefaultValueSql("GETDATE()");
 
-            builder.Property(r => r.FechaEntrada)
-                .HasDefaultValueSql("CONVERT(date, SYSUTCDATETIME())");
+            builder.Property(e => e.FechaSalida)
+                .IsRequired(false);
 
-            builder.Property(r => r.MontoTotal)
-                .HasColumnType("decimal(10,2)");
+            builder.Property(e => e.TiempoEstadia)
+                .IsRequired(false);
 
-            builder.HasOne(r => r.Vehiculo)
-                .WithMany()
-                .HasForeignKey(r => r.VehiculoPlaca)
-                .OnDelete(DeleteBehavior.NoAction);
+            builder.Property(e => e.MontoTotal)
+                .HasColumnType("decimal(10,2)")
+                .IsRequired(false);
 
-            builder.HasOne(r => r.Estado)
-                .WithMany()
-                .HasForeignKey(r => r.Zona)
-                .OnDelete(DeleteBehavior.SetNull);
+            builder.Property(e => e.Estado)
+                .HasMaxLength(20)
+                .HasDefaultValue("Activo");
+
+            // Relaciones
+            builder.HasOne(e => e.Vehiculo)
+                .WithMany(v => v.Registros)
+                .HasForeignKey(e => e.IdVehiculo)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(e => e.Espacio)
+                .WithMany(d => d.Registros)
+                .HasForeignKey(e => e.IdEspacio)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

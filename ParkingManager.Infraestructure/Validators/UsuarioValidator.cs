@@ -1,21 +1,36 @@
 ﻿using FluentValidation;
-using ParkingManager.Infrastructure.DTOs;
+using ParkingManager.Core.Entities;
 
 namespace ParkingManager.Infrastructure.Validators
 {
-    public class UsuarioValidator : AbstractValidator<UsuarioDto>
+    public class UsuarioValidator : AbstractValidator<Usuario>
     {
         public UsuarioValidator()
         {
             RuleFor(x => x.Nombre)
                 .NotEmpty().WithMessage("El nombre es obligatorio")
+                .MaximumLength(100);
+
+            RuleFor(x => x.Apellido)
+                .NotEmpty().WithMessage("El apellido es obligatorio")
+                .MaximumLength(100);
+
+            RuleFor(x => x.Email)
+                .NotEmpty().WithMessage("El email es obligatorio")
+                .EmailAddress().WithMessage("Debe ser un correo válido")
+                .MaximumLength(100);
+
+            RuleFor(x => x.Username)
+                .NotEmpty().WithMessage("El username es obligatorio")
+                .MinimumLength(4).WithMessage("Mínimo 4 caracteres")
                 .MaximumLength(50);
 
-            RuleFor(x => x.Correo)
-                .NotEmpty().EmailAddress().WithMessage("Debe ser un correo válido");
+            RuleFor(x => x.Telefono)
+                .MaximumLength(15)
+                .When(x => !string.IsNullOrEmpty(x.Telefono));
 
-            RuleFor(x => x.Password)
-                .NotEmpty().MinimumLength(6).WithMessage("La contraseña debe tener al menos 6 caracteres");
+            RuleFor(x => x.Rol)
+                .NotEmpty().WithMessage("El rol es obligatorio");
         }
     }
 }

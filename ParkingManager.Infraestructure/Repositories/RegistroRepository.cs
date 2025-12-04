@@ -6,9 +6,9 @@ using ParkingManager.Infrastructure.Data;
 
 namespace ParkingManager.Infrastructure.Repositories
 {
-    public class ReservaRepository : BaseRepository<Registro>, IRegistroRepository
+    public class RegistroRepository : BaseRepository<Registro>, IRegistroRepository
     {
-        public ReservaRepository(ParkingContext context) : base(context) { }
+        public RegistroRepository(ParkingContext context, IDapperContext dapper) : base(context) { }
 
         public Task<IEnumerable<Registro>> GetRegistrosActivosAsync()
         {
@@ -49,6 +49,31 @@ namespace ParkingManager.Infrastructure.Repositories
         }
 
         public Task RegistrarSalidaAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRegistroRepository.DeleteRegistroAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<Registro?> IRegistroRepository.GetRegistroByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<Registro>> IRegistroRepository.GetRegistrosAsync(RegistroQueryFilter filters)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRegistroRepository.InsertRegistroAsync(Registro registro)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRegistroRepository.UpdateRegistroAsync(Registro registro)
         {
             throw new NotImplementedException();
         }

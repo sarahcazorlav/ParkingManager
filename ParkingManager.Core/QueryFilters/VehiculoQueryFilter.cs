@@ -1,16 +1,10 @@
-﻿using Swashbuckle.AspNetCore.Annotations;
-
-namespace ParkingManager.Core.QueryFilters
+﻿namespace ParkingManager.Core.QueryFilters
 {
     public class VehiculoQueryFilter : PaginationQueryFilter
     {
-        [SwaggerSchema("Placa del vehiculo")]
         public string? Placa { get; set; }
-
-        [SwaggerSchema("Tipo de vehiculo (Auto, Moto, etc.)")]
-        public string? Tipo { get; set; }
-
-        [SwaggerSchema("ID del usuario propietario")]
-        public int? UsuarioId { get; set; }
+        public int? IdUsuario { get; set; }
+        public string? TipoVehiculo { get; set; }
+        public bool? Activo { get; set; }
     }
 }

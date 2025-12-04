@@ -8,17 +8,30 @@ namespace ParkingManager.Infrastructure.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Tarifa> builder)
         {
-            builder.ToTable("Tarifa");
+            builder.ToTable("Tarifas");
 
-            builder.HasKey(t => t.Id);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(t => t.TipoVehiculo)
-                .IsRequired()
-                .HasMaxLength(50);
+            builder.Property(e => e.TipoVehiculo)
+                .HasMaxLength(30)
+                .IsRequired();
 
-            builder.Property(t => t.PrecioPorHora)
-                .IsRequired()
-                .HasColumnType("decimal(10,2)");
+            builder.Property(e => e.TarifaPorHora)
+                .HasColumnType("decimal(10,2)")
+                .IsRequired();
+
+            builder.Property(e => e.TarifaPorDia)
+                .HasColumnType("decimal(10,2)")
+                .IsRequired();
+
+            builder.Property(e => e.Descripcion)
+                .HasMaxLength(200);
+
+            builder.Property(e => e.Activo)
+                .HasDefaultValue(true);
+
+            builder.Property(e => e.FechaCreacion)
+                .HasDefaultValueSql("GETDATE()");
         }
     }
 }

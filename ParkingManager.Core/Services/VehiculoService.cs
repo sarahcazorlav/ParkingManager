@@ -1,46 +1,44 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace ParkingManager.Infrastructure.Services
+namespace ParkingManager.Core.Services
 {
     public class VehiculoService : IVehiculoService
     {
-        private readonly IVehiculoRepository _vehiculoRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public VehiculoService(IVehiculoRepository vehiculoRepository)
+        public VehiculoService(IUnitOfWork unitOfWork)
         {
-            _vehiculoRepository = vehiculoRepository;
+            _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters)
+        public async Task<PagedList<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters)
         {
-            var vehiculos = await _vehiculoRepository.GetAllAsync();
-
-            if (!string.IsNullOrEmpty(filters.Placa))
-                vehiculos = vehiculos.Where(v => v.Placa.Contains(filters.Placa));
-
-            if (filters.UsuarioId.HasValue)
-                vehiculos = vehiculos.Where(v => v.UsuarioId == filters.UsuarioId);
-
-            return vehiculos;
+            var vehiculos = await _unitOfWork.Vehiculos.GetVehiculosAsync(filters);
+            var pagedList = PagedList<Vehiculo>.Create(vehiculos, filters.PageNumber, filters.PageSize);
+            return pagedList;
         }
 
-        public async Task<Vehiculo?> GetVehiculoAsync(int id) => await _vehiculoRepository.GetByIdAsync(id);
-
-        public async Task InsertVehiculoAsync(Vehiculo vehiculo) => await _vehiculoRepository.AddAsync(vehiculo);
-
-        public Task<bool> UpdateVehiculoAsync(Vehiculo vehiculo)
+        public async Task<Vehiculo?> GetVehiculoByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Vehiculos.GetVehiculoByIdAsync(id);
         }
 
-        public Task<bool> DeleteVehiculoAsync(int id)
+        public async Task InsertVehiculoAsync(Vehiculo vehiculo)
         {
-            throw new NotImplementedException();
+            await _unitOfWork.Vehiculos.InsertVehiculoAsync(vehiculo);
+        }
+
+        public async Task UpdateVehiculoAsync(Vehiculo vehiculo)
+        {
+            await _unitOfWork.Vehiculos.UpdateVehiculoAsync(vehiculo);
+        }
+
+        public async Task DeleteVehiculoAsync(int id)
+        {
+            await _unitOfWork.Vehiculos.DeleteVehiculoAsync(id);
         }
     }
 }

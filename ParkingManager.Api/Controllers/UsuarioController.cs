@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ParkingManager.Core.CustomEntities;
 using ParkingManager.Core.Entities;
+using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
 using ParkingManager.Core.Services;
 

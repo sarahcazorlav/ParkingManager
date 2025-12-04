@@ -1,18 +1,18 @@
 ﻿namespace ParkingManager.Core.Entities
 {
-    public class Registro
+    public class Registro : BaseEntity
     {
-        public int Id { get; set; }
-        public int VehiculoId { get; set; }
-        public Vehiculo? Vehiculo { get; set; }
-        public DateTime FechaEntrada { get; set; }
+        public int IdVehiculo { get; set; }
+        public int IdEspacio { get; set; }
+        public DateTime FechaEntrada { get; set; } = DateTime.UtcNow;
         public DateTime? FechaSalida { get; set; }
+        public int? TiempoEstadia { get; set; } // En minutos
         public decimal? MontoTotal { get; set; }
-        public int TarifaId { get; set; }
-        public Tarifa? Tarifa { get; set; }
-        public string? Estado { get; set; }
-        public string VehiculoPlaca { get; set; }
-        public object HoraSalida { get; set; }
+        public string Estado { get; set; } = "Activo"; // 'Activo', 'Finalizado'
+
+        // Navegación
+        public virtual Vehiculo? Vehiculo { get; set; }
+        public virtual Disponibilidad? Espacio { get; set; }
         public object Zona { get; set; }
         public DateTime Fecha { get; set; }
     }

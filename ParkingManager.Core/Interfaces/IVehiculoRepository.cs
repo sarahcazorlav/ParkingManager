@@ -1,4 +1,5 @@
 ﻿using ParkingManager.Core.Entities;
+using ParkingManager.Core.QueryFilters;
 
 namespace ParkingManager.Core.Interfaces
 {
@@ -11,5 +12,10 @@ namespace ParkingManager.Core.Interfaces
         Task AddAsync(Vehiculo vehiculo);
         Task UpdateAsync(Vehiculo vehiculo);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters);
+        Task<Vehiculo?> GetVehiculoByIdAsync(int id);
+        Task InsertVehiculoAsync(Vehiculo vehiculo);
+        Task UpdateVehiculoAsync(Vehiculo vehiculo);
+        Task DeleteVehiculoAsync(int id);
     }
 }

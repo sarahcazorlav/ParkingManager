@@ -1,8 +1,8 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
-using ParkingManager.Core.CustomEntities;
 
-namespace ParkingManager.Core.Services
+namespace ParkingManager.Core.Interfaces
 {
     public interface IUsuarioService
     {

@@ -13,4 +13,3 @@ namespace ParkingManager.Core.Interfaces
         Task DeleteTarifaAsync(int id);
     }
 }
-

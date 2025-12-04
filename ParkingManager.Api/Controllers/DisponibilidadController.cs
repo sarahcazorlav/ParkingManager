@@ -42,7 +42,7 @@ namespace Parking.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Disponibilidad disponibilidad)
         {
-            if (id != disponibilidad.IdDisponibilidad)
+            if (id != disponibilidad.Id)
                 return BadRequest("El ID no coincide");
 
             await _disponibilidadRepository.UpdateAsync(disponibilidad);

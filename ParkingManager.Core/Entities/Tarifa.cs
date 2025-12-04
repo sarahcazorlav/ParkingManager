@@ -1,16 +1,12 @@
-﻿
-namespace ParkingManager.Core.Entities
+﻿namespace ParkingManager.Core.Entities
 {
-    public class Tarifa
+    public class Tarifa : BaseEntity
     {
-        public int Id { get; set; }
-        public string? TipoVehiculo { get; set; } // Auto, Moto, Camión
-        public decimal PrecioPorHora { get; set; }
-        public bool Activa { get; set; }
-        public int IdTarifa { get; set; }
-        public decimal Precio { get; internal set; }
-        public decimal Monto { get; set; }
-        public DateTime FechaVigenciaInicio { get; set; }
-        public DateTime FechaVigenciaFin { get; set; }
+        public string TipoVehiculo { get; set; } = string.Empty;
+        public decimal TarifaPorHora { get; set; }
+        public decimal TarifaPorDia { get; set; }
+        public string? Descripcion { get; set; }
+        public bool Activo { get; set; } = true;
+        public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
     }
 }

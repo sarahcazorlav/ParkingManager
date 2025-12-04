@@ -1,16 +1,15 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Interfaces
 {
     public interface IRegistroService
     {
-        Task<IEnumerable<Registro>> GetRegistrosAsync(RegistroQueryFilter filters);
-        Task<Registro?> GetRegistroAsync(int id);
+        Task<PagedList<Registro>> GetRegistrosAsync(RegistroQueryFilter filters);
+        Task<Registro?> GetRegistroByIdAsync(int id);
         Task InsertRegistroAsync(Registro registro);
-        Task<bool> UpdateRegistroAsync(Registro registro);
-        Task<bool> DeleteRegistroAsync(int id);
+        Task UpdateRegistroAsync(Registro registro);
+        Task DeleteRegistroAsync(int id);
     }
 }

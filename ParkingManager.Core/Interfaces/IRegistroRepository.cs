@@ -1,4 +1,5 @@
 ﻿using ParkingManager.Core.Entities;
+using ParkingManager.Core.QueryFilters;
 
 namespace ParkingManager.Core.Interfaces
 {
@@ -13,5 +14,10 @@ namespace ParkingManager.Core.Interfaces
         Task DeleteAsync(int id);
         Task RegistrarEntradaAsync(Registro registro);
         Task RegistrarSalidaAsync(int id);
+        Task<IEnumerable<Registro>> GetRegistrosAsync(RegistroQueryFilter filters);
+        Task<Registro?> GetRegistroByIdAsync(int id);
+        Task InsertRegistroAsync(Registro registro);
+        Task UpdateRegistroAsync(Registro registro);
+        Task DeleteRegistroAsync(int id);
     }
 }

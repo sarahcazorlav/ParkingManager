@@ -8,7 +8,7 @@ namespace ParkingManager.Infrastructure.Repositories
 {
     public class VehiculoRepository : BaseRepository<Vehiculo>, IVehiculoRepository
     {
-        public VehiculoRepository(ParkingContext context) : base(context) { }
+        public VehiculoRepository(ParkingContext context, IDapperContext dapper) : base(context) { }
 
         public Task<Vehiculo?> GetVehiculoPorPlacaAsync(string placa)
         {
@@ -33,6 +33,31 @@ namespace ParkingManager.Infrastructure.Repositories
         }
 
         public Task<IEnumerable<Vehiculo>> GetVehiculosPorUsuarioAsync(int usuarioId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IVehiculoRepository.DeleteVehiculoAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<Vehiculo?> IVehiculoRepository.GetVehiculoByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<Vehiculo>> IVehiculoRepository.GetVehiculosAsync(VehiculoQueryFilter filters)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IVehiculoRepository.InsertVehiculoAsync(Vehiculo vehiculo)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IVehiculoRepository.UpdateVehiculoAsync(Vehiculo vehiculo)
         {
             throw new NotImplementedException();
         }

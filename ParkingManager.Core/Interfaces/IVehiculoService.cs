@@ -1,16 +1,15 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Interfaces
 {
     public interface IVehiculoService
     {
-        Task<IEnumerable<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters);
-        Task<Vehiculo?> GetVehiculoAsync(int id);
+        Task<PagedList<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters);
+        Task<Vehiculo?> GetVehiculoByIdAsync(int id);
         Task InsertVehiculoAsync(Vehiculo vehiculo);
-        Task<bool> UpdateVehiculoAsync(Vehiculo vehiculo);
-        Task<bool> DeleteVehiculoAsync(int id);
+        Task UpdateVehiculoAsync(Vehiculo vehiculo);
+        Task DeleteVehiculoAsync(int id);
     }
 }

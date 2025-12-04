@@ -1,46 +1,44 @@
-﻿using ParkingManager.Core.Entities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Services
 {
     public class DisponibilidadService : IDisponibilidadService
     {
-        private readonly IDisponibilidadRepository _disponibilidadRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DisponibilidadService(IDisponibilidadRepository disponibilidadRepository)
+        public DisponibilidadService(IUnitOfWork unitOfWork)
         {
-            _disponibilidadRepository = disponibilidadRepository;
+            _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<Disponibilidad>> GetDisponibilidadesAsync(DisponibilidadQueryFilter filters)
+        public async Task<PagedList<Disponibilidad>> GetDisponibilidadesAsync(DisponibilidadQueryFilter filters)
         {
-            var disponibilidades = await _disponibilidadRepository.GetAllAsync();
-
-            if (filters.Disponible.HasValue)
-                disponibilidades = disponibilidades.Where(d => d.Disponible == filters.Disponible);
-
-            if (!string.IsNullOrEmpty(filters.Sector))
-                disponibilidades = disponibilidades.Where(d => d.Zona.Contains(filters.Sector));
-
-            return disponibilidades;
+            var disponibilidades = await _unitOfWork.Disponibilidades.GetDisponibilidadesAsync(filters);
+            var pagedList = PagedList<Disponibilidad>.Create(disponibilidades, filters.PageNumber, filters.PageSize);
+            return pagedList;
         }
 
-        public async Task<Disponibilidad?> GetDisponibilidadAsync(int id) => await _disponibilidadRepository.GetByIdAsync(id);
-
-        public async Task InsertDisponibilidadAsync(Disponibilidad disponibilidad) => await _disponibilidadRepository.AddAsync(disponibilidad);
-
-        public Task<bool> UpdateDisponibilidadAsync(Disponibilidad disponibilidad)
+        public async Task<Disponibilidad?> GetDisponibilidadByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Disponibilidades.GetDisponibilidadByIdAsync(id);
         }
 
-        public Task<bool> DeleteDisponibilidadAsync(int id)
+        public async Task InsertDisponibilidadAsync(Disponibilidad disponibilidad)
         {
-            throw new NotImplementedException();
+            await _unitOfWork.Disponibilidades.InsertDisponibilidadAsync(disponibilidad);
+        }
+
+        public async Task UpdateDisponibilidadAsync(Disponibilidad disponibilidad)
+        {
+            await _unitOfWork.Disponibilidades.UpdateDisponibilidadAsync(disponibilidad);
+        }
+
+        public async Task DeleteDisponibilidadAsync(int id)
+        {
+            await _unitOfWork.Disponibilidades.DeleteDisponibilidadAsync(id);
         }
     }
 }

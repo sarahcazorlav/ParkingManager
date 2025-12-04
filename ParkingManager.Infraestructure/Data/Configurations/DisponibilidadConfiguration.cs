@@ -10,11 +10,26 @@ namespace ParkingManager.Infrastructure.Data.Configurations
         {
             builder.ToTable("Disponibilidad");
 
-            builder.HasKey(d => d.Id);
+            builder.HasKey(e => e.Id);
 
-            builder.Property(d => d.Estado)
-                .IsRequired()
-                .HasMaxLength(50);
+            builder.Property(e => e.TipoEspacio)
+                .HasMaxLength(30)
+                .IsRequired();
+
+            builder.Property(e => e.NumeroEspacio)
+                .HasMaxLength(10)
+                .IsRequired();
+
+            builder.HasIndex(e => e.NumeroEspacio).IsUnique();
+
+            builder.Property(e => e.Piso)
+                .IsRequired();
+
+            builder.Property(e => e.Ocupado)
+                .HasDefaultValue(false);
+
+            builder.Property(e => e.FechaActualizacion)
+                .HasDefaultValueSql("GETDATE()");
         }
     }
 }

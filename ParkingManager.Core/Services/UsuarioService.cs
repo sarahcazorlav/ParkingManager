@@ -1,40 +1,62 @@
-﻿using ParkingManager.Core.Entities;
-using ParkingManager.Core.QueryFilters;
-using ParkingManager.Core.CustomEntities;
+﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
+using ParkingManager.Core.QueryFilters;
 
 namespace ParkingManager.Core.Services
 {
     public class UsuarioService : IUsuarioService
     {
-        private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public UsuarioService(IUsuarioRepository usuarioRepository)
+        public UsuarioService(IUnitOfWork unitOfWork)
         {
-            _usuarioRepository = usuarioRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<PagedList<Usuario>> GetUsuariosAsync(UsuarioQueryFilter filters)
         {
-            var usuarios = await _usuarioRepository.GetUsuariosAsync(filters);
+            var usuarios = await _unitOfWork.Usuarios.GetUsuariosAsync(filters);
 
-            int pageNumber = filters.PageNumber == 0 ? 1 : filters.PageNumber;
-            int pageSize = filters.PageSize == 0 ? 10 : filters.PageSize;
+            // Aquí deberías obtener el total count, por ahora lo simulamos
+            var pagedList = PagedList<Usuario>.Create(
+                usuarios,
+                filters.PageNumber,
+                filters.PageSize
+            );
 
-            // Crear lista paginada
-            return PagedList<Usuario>.Create(usuarios, pageNumber, pageSize);
+            return pagedList;
         }
 
-        public async Task<Usuario?> GetUsuarioByIdAsync(int id) =>
-            await _usuarioRepository.GetUsuarioByIdAsync(id);
+        public async Task<Usuario?> GetUsuarioByIdAsync(int id)
+        {
+            return await _unitOfWork.Usuarios.GetUsuarioByIdAsync(id);
+        }
 
-        public async Task InsertUsuarioAsync(Usuario usuario) =>
-            await _usuarioRepository.InsertUsuarioAsync(usuario);
+        public async Task InsertUsuarioAsync(Usuario usuario)
+        {
+            // Validaciones
+            if (await _unitOfWork.Usuarios.ExistsByEmailAsync(usuario.Email))
+            {
+                throw new Exception("El email ya está registrado");
+            }
 
-        public async Task UpdateUsuarioAsync(Usuario usuario) =>
-            await _usuarioRepository.UpdateUsuarioAsync(usuario);
+            if (await _unitOfWork.Usuarios.ExistsByUsernameAsync(usuario.Username))
+            {
+                throw new Exception("El username ya está registrado");
+            }
 
-        public async Task DeleteUsuarioAsync(int id) =>
-            await _usuarioRepository.DeleteUsuarioAsync(id);
+            await _unitOfWork.Usuarios.InsertUsuarioAsync(usuario);
+        }
+
+        public async Task UpdateUsuarioAsync(Usuario usuario)
+        {
+            await _unitOfWork.Usuarios.UpdateUsuarioAsync(usuario);
+        }
+
+        public async Task DeleteUsuarioAsync(int id)
+        {
+            await _unitOfWork.Usuarios.DeleteUsuarioAsync(id);
+        }
     }
 }

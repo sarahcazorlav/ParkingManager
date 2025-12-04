@@ -1,18 +1,18 @@
 ﻿namespace ParkingManager.Core.Entities
 {
-    public class Vehiculo
+    public class Vehiculo : BaseEntity
     {
-        public int Id { get; set; }
-        public string? Placa { get; set; }
+        public int IdUsuario { get; set; }
+        public string Placa { get; set; } = string.Empty;
         public string? Marca { get; set; }
         public string? Modelo { get; set; }
         public string? Color { get; set; }
-        public int UsuarioId { get; set; }
-        public Usuario? Usuario { get; set; }
-        public ICollection<Registro>? Registros { get; set; }
-        public object IdVehiculo { get; set; }
-        public int IdUsuario { get; set; }
-        public object? Tipo { get; set; }
-        public object Descripcion { get; set; }
+        public string TipoVehiculo { get; set; } = string.Empty; // 'Auto', 'Moto', 'Camioneta'
+        public DateTime FechaRegistro { get; set; } = DateTime.UtcNow;
+        public bool Activo { get; set; } = true;
+
+        // Navegación
+        public virtual Usuario? Usuario { get; set; }
+        public virtual ICollection<Registro> Registros { get; set; } = new List<Registro>();
     }
 }

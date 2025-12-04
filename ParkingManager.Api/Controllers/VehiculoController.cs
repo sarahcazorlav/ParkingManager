@@ -39,7 +39,7 @@ namespace Parking.API.Controllers
                 return BadRequest(ModelState);
 
             await _vehiculoRepository.AddAsync(vehiculo);
-            return CreatedAtAction(nameof(GetById), new { id = vehiculo.IdVehiculo }, vehiculo);
+            return CreatedAtAction(nameof(GetById), new { id = vehiculo.Id }, vehiculo);
         }
 
         [HttpPut("{id}")]

@@ -1,13 +1,11 @@
-﻿using Swashbuckle.AspNetCore.Annotations;
-
-namespace ParkingManager.Core.QueryFilters
+﻿namespace ParkingManager.Core.QueryFilters
 {
     public class DisponibilidadQueryFilter : PaginationQueryFilter
     {
-        [SwaggerSchema("Estado de la plaza (true = disponible, false = ocupada)")]
-        public bool? Disponible { get; set; }
-
-        [SwaggerSchema("Numero de plaza o sector")]
-        public string? Sector { get; set; }
+        public string? TipoEspacio { get; set; }
+        public int? Piso { get; set; }
+        public bool? Ocupado { get; set; }
+        public string? Zona { get; set; }
+        public string? Estado { get; set; }
     }
 }

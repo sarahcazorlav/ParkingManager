@@ -1,15 +1,16 @@
 ﻿namespace ParkingManager.Core.Entities
 {
-    public class Disponibilidad
+    public class Disponibilidad : BaseEntity
     {
-        public int Id { get; set; }
-        public string? Zona { get; set; }
-        public int EspaciosTotales { get; set; }
-        public int EspaciosLibres { get; set; }
+        public string TipoEspacio { get; set; } = string.Empty;
+        public string NumeroEspacio { get; set; } = string.Empty;
+        public int Piso { get; set; }
+        public bool Ocupado { get; set; } = false;
+        public DateTime FechaActualizacion { get; set; } = DateTime.UtcNow;
 
-        public bool Disponible => EspaciosLibres > 0;
-
-        public int IdDisponibilidad { get; set; }
+        // Navegación
+        public virtual ICollection<Registro> Registros { get; set; } = new List<Registro>();
         public string Estado { get; set; }
+        public string Zona { get; set; }
     }
 }

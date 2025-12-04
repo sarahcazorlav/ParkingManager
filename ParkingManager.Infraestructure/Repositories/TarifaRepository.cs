@@ -8,7 +8,7 @@ namespace ParkingManager.Infrastructure.Repositories
 {
     public class TarifaRepository : BaseRepository<Tarifa>, ITarifaRepository
     {
-        public TarifaRepository(ParkingContext context) : base(context) { }
+        public TarifaRepository(ParkingContext context, IDapperContext dapper) : base(context) { }
 
         public Task DeleteTarifaAsync(int id)
         {
