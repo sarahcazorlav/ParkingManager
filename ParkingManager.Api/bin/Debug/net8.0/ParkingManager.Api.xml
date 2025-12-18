@@ -16,12 +16,13 @@
             Obtiene información del usuario autenticado (requiere token)
             </summary>
         </member>
-        <member name="M:ParkingManager.Api.Controllers.TokenController.Authentication(ParkingManager.Core.Entities.UserLogin)">
+        <member name="M:ParkingManager.Api.Controllers.TokenController.TestConnection">
             <summary>
             Autentica un usuario y genera un token JWT
             </summary>
             <param name="userLogin">Credenciales del usuario</param>
             <returns>Token JWT</returns>
+            
         </member>
         <member name="M:ParkingManager.Api.Controllers.TokenController.GetConfig">
             <summary>

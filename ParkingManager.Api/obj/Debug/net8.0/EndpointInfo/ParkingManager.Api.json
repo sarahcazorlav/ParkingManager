@@ -380,14 +380,25 @@
         }
       }
     },
+    "/api/Token/test-connection": {
+      "get": {
+        "tags": [
+          "Token"
+        ],
+        "summary": "Autentica un usuario y genera un token JWT",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Token": {
       "post": {
         "tags": [
           "Token"
         ],
-        "summary": "Autentica un usuario y genera un token JWT",
         "requestBody": {
-          "description": "Credenciales del usuario",
           "content": {
             "application/json": {
               "schema": {

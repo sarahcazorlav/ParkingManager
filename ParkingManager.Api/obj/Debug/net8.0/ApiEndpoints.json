@@ -157,6 +157,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ParkingManager.Api.Controllers.TokenController",
+    "Method": "TestConnection",
+    "RelativePath": "api/Token/test-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ParkingManager.Api.Controllers.UsuarioController",
     "Method": "GetUsuarios",
     "RelativePath": "api/Usuario",

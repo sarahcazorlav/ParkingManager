@@ -24,7 +24,6 @@ namespace ParkingManager.Infrastructure.Repositories
         {
             var query = _entities
                 .Include(r => r.Vehiculo)
-                .Include(r => r.Espacio)
                 .AsQueryable();
 
 

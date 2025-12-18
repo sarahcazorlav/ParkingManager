@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using ParkingManager.Core.Entities;
-using ParkingManager.Core.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
+using ParkingManager.Infrastructure.Data;
+using ParkingManager.Core.Entities;
+using ParkingManager.Core.Interfaces;
 
 namespace ParkingManager.Api.Controllers
 {
@@ -16,15 +18,18 @@ namespace ParkingManager.Api.Controllers
         private readonly IConfiguration _configuration;
         private readonly ISecurityService _securityService;
         private readonly IPasswordService _passwordService;
+        private readonly ParkingContext _context;
 
         public TokenController(
             IConfiguration configuration,
             ISecurityService securityService,
-            IPasswordService passwordService)
+            IPasswordService passwordService,
+            ParkingContext context)
         {
             _configuration = configuration;
             _securityService = securityService;
             _passwordService = passwordService;
+            _context = context;
         }
 
         /// <summary>
@@ -32,6 +37,78 @@ namespace ParkingManager.Api.Controllers
         /// </summary>
         /// <param name="userLogin">Credenciales del usuario</param>
         /// <returns>Token JWT</returns>
+        /// 
+        [HttpGet("test-connection")]
+        public async Task<IActionResult> TestConnection()
+        {
+            try
+            {
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+
+                Console.WriteLine($"Intentando conectar con: {connectionString}");
+
+                // Intentar conectar
+                var canConnect = await _context.Database.CanConnectAsync();
+
+                if (canConnect)
+                {
+                    // Verificar tablas
+                    var tables = await _context.Database
+                        .SqlQueryRaw<string>("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'")
+                        .ToListAsync();
+
+                    return Ok(new
+                    {
+                        Status = "✅ CONEXIÓN EXITOSA",
+                        Server = "YAJAIRA-PERSONA\\SQLEXPRESS",
+                        Database = "ParkingDB",
+                        TablesCount = tables.Count,
+                        Tables = tables,
+                        Message = "Base de datos conectada correctamente"
+                    });
+                }
+                else
+                {
+                    return StatusCode(500, new
+                    {
+                        Status = "❌ NO SE PUEDE CONECTAR",
+                        ConnectionString = connectionString,
+                        Message = "Verifica que SQL Server Express esté corriendo"
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    Status = "❌ ERROR",
+                    Error = ex.Message,
+                    InnerError = ex.InnerException?.Message,
+                    StackTrace = ex.StackTrace?.Split('\n').Take(5)
+                });
+            }
+        }
+
+        private string MaskConnectionString(string? connectionString)
+        {
+            if (string.IsNullOrEmpty(connectionString))
+                return "NO CONFIGURADO";
+
+            // Ocultar password si existe
+            var masked = connectionString;
+            if (masked.Contains("Password="))
+            {
+                var parts = masked.Split(';');
+                masked = string.Join(";", parts.Select(p =>
+                    p.TrimStart().StartsWith("Password=", StringComparison.OrdinalIgnoreCase)
+                        ? "Password=***"
+                        : p));
+            }
+
+            return masked;
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> Authentication([FromBody] UserLogin userLogin)
         {
