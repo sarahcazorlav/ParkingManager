@@ -54,22 +54,34 @@ namespace ParkingManager.Api.Controllers
             }
         }
 
+        //private async Task<(bool, Security)> IsValidUser(UserLogin userLogin)
+        //{
+        //    try
+        //    {
+        //        var user = await _securityService.GetLoginByCredentials(userLogin);
+
+        //        if (user == null)
+        //            return (false, null!);
+
+        //        var isValidHash = _passwordService.Check(user.Password, userLogin.Password);
+        //        return (isValidHash, user);
+        //    }
+        //    catch
+        //    {
+        //        return (false, null!);
+        //    }
+        //}
         private async Task<(bool, Security)> IsValidUser(UserLogin userLogin)
         {
-            try
-            {
-                var user = await _securityService.GetLoginByCredentials(userLogin);
+            var user = await _securityService.GetLoginByCredentials(userLogin);
 
-                if (user == null)
-                    return (false, null!);
-
-                var isValidHash = _passwordService.Check(user.Password, userLogin.Password);
-                return (isValidHash, user);
-            }
-            catch
-            {
+            if (user == null)
                 return (false, null!);
-            }
+
+            // Comparación directa (TEMPORAL)
+            bool isValid = user.Password == userLogin.Password;
+
+            return (isValid, user);
         }
 
         private string GenerateToken(Security security)

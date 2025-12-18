@@ -2,8 +2,9 @@
 {
     public class Registro : BaseEntity
     {
-        public int IdVehiculo { get; set; }
-        public int IdEspacio { get; set; }
+        public int VehiculoId { get; set; }
+        public int EspacioId { get; set; }       
+
         public DateTime FechaEntrada { get; set; } = DateTime.UtcNow;
         public DateTime? FechaSalida { get; set; }
         public int? TiempoEstadia { get; set; } // En minutos
@@ -11,9 +12,9 @@
         public string Estado { get; set; } = "Activo"; // 'Activo', 'Finalizado'
 
         // Navegación
-        public virtual Vehiculo? Vehiculo { get; set; }
-        public virtual Disponibilidad? Espacio { get; set; }
-        public object Zona { get; set; }
+        public Vehiculo? Vehiculo { get; set; }
+        public Disponibilidad? Espacio { get; set; }
+        public string Zona { get; set; }
         public DateTime Fecha { get; set; }
     }
 }

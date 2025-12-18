@@ -24,8 +24,9 @@ namespace ParkingManager.Infrastructure.Repositories
         {
             var query = _entities
                 .Include(r => r.Vehiculo)
-                .Include(r => r.Zona)
+                .Include(r => r.Espacio)
                 .AsQueryable();
+
 
             if (filters.FechaEntrada.HasValue)
                 query = query.Where(r => r.Fecha >= filters.FechaEntrada.Value);

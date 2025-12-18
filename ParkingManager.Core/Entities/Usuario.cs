@@ -4,8 +4,7 @@ namespace ParkingManager.Core.Entities
 {
     public class Usuario : BaseEntity
     {
-        public object Password;
-
+        public string Password { get; set; } = string.Empty;
         public string Nombre { get; set; } = string.Empty;
         public string Apellido { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;

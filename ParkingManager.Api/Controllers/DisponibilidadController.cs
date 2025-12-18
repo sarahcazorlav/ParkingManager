@@ -5,7 +5,9 @@ using ParkingManager.Core.Interfaces;
 namespace Parking.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Produces("application/json")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class DisponibilidadController : ControllerBase
     {
         private readonly IDisponibilidadRepository _disponibilidadRepository;
@@ -48,5 +50,6 @@ namespace Parking.API.Controllers
             await _disponibilidadRepository.UpdateAsync(disponibilidad);
             return NoContent();
         }
+
     }
 }

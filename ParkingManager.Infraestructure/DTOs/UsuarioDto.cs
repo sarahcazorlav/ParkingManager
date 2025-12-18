@@ -12,6 +12,5 @@
         public string? Telefono { get; set; }
         public string Rol { get; set; } = string.Empty;
         public bool Activo { get; set; }
-        public object Correo { get; internal set; }
     }
 }

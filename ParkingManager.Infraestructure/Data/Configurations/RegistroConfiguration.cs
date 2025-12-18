@@ -32,12 +32,12 @@ namespace ParkingManager.Infrastructure.Data.Configurations
             // Relaciones
             builder.HasOne(e => e.Vehiculo)
                 .WithMany(v => v.Registros)
-                .HasForeignKey(e => e.IdVehiculo)
+                .HasForeignKey(e => e.VehiculoId)
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasOne(e => e.Espacio)
                 .WithMany(d => d.Registros)
-                .HasForeignKey(e => e.IdEspacio)
+                .HasForeignKey(e => e.EspacioId)
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }
