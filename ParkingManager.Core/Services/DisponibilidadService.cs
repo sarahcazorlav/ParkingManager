@@ -1,4 +1,5 @@
 ﻿using ParkingManager.Core.CustomEntities;
+using ParkingManager.Core.DTOs;
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
@@ -53,6 +54,15 @@ namespace ParkingManager.Core.Services
         public async Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona)
         {
             return await _unitOfWork.Disponibilidades.GetDisponiblesPorZonaAsync(zona);
+        }
+
+        //para el historial de disponibilidades
+        public async Task<IEnumerable<Disponibilidad>> GetDisponibilidadesPorRangoFechasAsync(
+            DateTime fechaInicio,
+            DateTime fechaFin)
+        {
+            return await _unitOfWork.Disponibilidades
+                .GetDisponibilidadesPorRangoFechasAsync(fechaInicio, fechaFin);
         }
     }
 }

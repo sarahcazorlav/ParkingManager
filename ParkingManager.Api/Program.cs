@@ -15,6 +15,7 @@ using ParkingManager.Infrastructure.Data;
 using ParkingManager.Infrastructure.Filters;
 using ParkingManager.Infrastructure.Repositories;
 using ParkingManager.Infrastructure.Validators;
+//using ParkingManager.Infrastructure.Mappings;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,6 +43,10 @@ builder.Services.AddDbContext<ParkingContext>(options =>
     options.EnableSensitiveDataLogging(); // TEMPORAL PARA DEBUG
     options.LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information);
 });
+
+//// AGREGAR AUTOMAPPER
+//builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+
 
 // INYECCIÓN DE DEPENDENCIAS
 builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();

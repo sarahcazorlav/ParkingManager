@@ -11,8 +11,8 @@
         // Navegación
         public virtual ICollection<Registro> Registros { get; set; } = new List<Registro>();
 
-        // Inicializar para evitar valores nulos al persistir
-        public string Estado { get; set; } = string.Empty;
-        public string Zona { get; set; } = string.Empty;
+        // Valores por defecto para evitar NULL
+        public string Estado { get; set; } = "Disponible";
+        public string Zona { get; set; } = "Zona A";
     }
 }

@@ -63,6 +63,36 @@
         }
       }
     },
+    "/api/Disponibilidad/rango-fechas": {
+      "get": {
+        "tags": [
+          "Disponibilidad"
+        ],
+        "parameters": [
+          {
+            "name": "fechaInicio",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "fechaFin",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Registro/entrada": {
       "post": {
         "tags": [

@@ -17,7 +17,5 @@ namespace ParkingManager.Core.Entities
         // Navegación
         public Vehiculo? Vehiculo { get; set; }
         public Disponibilidad? Espacio { get; set; }
-        
-        
     }
 }

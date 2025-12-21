@@ -1,6 +1,7 @@
 ﻿using ParkingManager.Core.CustomEntities;
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
+using System; // <-- Agregado para DateTime
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -16,5 +17,8 @@ namespace ParkingManager.Core.Interfaces
 
         // Devuelve la lista de disponibilidades por zona
         Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona);
+
+        //para el historial de disponibilidades
+        Task<IEnumerable<Disponibilidad>> GetDisponibilidadesPorRangoFechasAsync(DateTime fechaInicio, DateTime fechaFin);
     }
 }

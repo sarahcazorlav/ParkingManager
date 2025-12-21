@@ -328,3 +328,5 @@ C:\Users\sarah\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0
 C:\Users\sarah\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ParkingManager.Api.genruntimeconfig.cache
 C:\Users\sarah\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\ref\ParkingManager.Api.dll
 C:\Users\sarah\Desktop\TecWeb\ParkingManager\ParkingManager.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

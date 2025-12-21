@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "ParkingManager.Api.Controllers.DisponibilidadController",
+    "Method": "GetDisponibilidadPorRango",
+    "RelativePath": "api/Disponibilidad/rango-fechas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaInicio",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingManager.Api.Controllers.DisponibilidadController",
     "Method": "GetPorZona",
     "RelativePath": "api/Disponibilidad/zona/{zona}",
     "HttpMethod": "GET",

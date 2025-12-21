@@ -60,5 +60,20 @@ namespace ParkingManager.Infrastructure.Repositories
         {
             _context.Disponibilidades.Update(disponibilidad);
         }
+
+
+        //para el historial de disponibilidades
+        public async Task<IEnumerable<Disponibilidad>> GetDisponibilidadesPorRangoFechasAsync(
+            DateTime fechaInicio,
+            DateTime fechaFin)
+        {
+            return await _context.Disponibilidades
+                .Where(d => d.FechaActualizacion >= fechaInicio && d.FechaActualizacion <= fechaFin)
+                .OrderBy(d => d.FechaActualizacion)
+                .ThenBy(d => d.Zona)
+                .ThenBy(d => d.NumeroEspacio)
+                .ToListAsync();
+        }
     }
 }
+

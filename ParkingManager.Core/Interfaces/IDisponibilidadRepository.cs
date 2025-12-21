@@ -11,5 +11,8 @@ namespace ParkingManager.Core.Interfaces
         Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona);
         Task InsertDisponibilidadAsync(Disponibilidad disponibilidad);
         Task UpdateDisponibilidadAsync(Disponibilidad disponibilidad);
+
+        //para el historial de disponibilidades
+        Task<IEnumerable<Disponibilidad>> GetDisponibilidadesPorRangoFechasAsync(DateTime fechaInicio, DateTime fechaFin);
     }
 }
