@@ -11,5 +11,7 @@ namespace ParkingManager.Core.Interfaces
         Task InsertTarifaAsync(Tarifa tarifa);
         Task UpdateTarifaAsync(Tarifa tarifa);
         Task DeleteTarifaAsync(int id);
+        Task<Tarifa> CrearTarifaAsync(Tarifa tarifa);
+
     }
 }

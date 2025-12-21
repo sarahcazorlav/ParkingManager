@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 namespace ParkingManager.Core.Interfaces
 {
     public interface IBaseRepository<T> where T : class

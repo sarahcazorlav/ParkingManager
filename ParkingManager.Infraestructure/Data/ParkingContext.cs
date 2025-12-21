@@ -21,7 +21,7 @@ namespace ParkingManager.Infrastructure.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Aplicar todas las configuraciones del assembly
+            // Aplicar todas las configuraciones automáticas del assembly
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }

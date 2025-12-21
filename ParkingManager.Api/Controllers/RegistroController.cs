@@ -8,42 +8,36 @@ namespace Parking.API.Controllers
     [Route("api/[controller]")]
     public class RegistroController : ControllerBase
     {
-        private readonly IRegistroRepository _registroRepository;
+        private readonly IRegistroService _registroService;
 
-        public RegistroController(IRegistroRepository registroRepository)
+        public RegistroController(IRegistroService registroService)
         {
-            _registroRepository = registroRepository;
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            var registros = await _registroRepository.GetAllAsync();
-            return Ok(registros);
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var registro = await _registroRepository.GetByIdAsync(id);
-            if (registro == null)
-                return NotFound("Registro no encontrado");
-
-            return Ok(registro);
+            _registroService = registroService;
         }
 
         [HttpPost("entrada")]
         public async Task<IActionResult> RegistrarEntrada([FromBody] Registro registro)
         {
-            await _registroRepository.RegistrarEntradaAsync(registro);
-            return Ok("Entrada registrada correctamente");
+            var creado = await _registroService.RegistrarEntradaAsync(registro);
+
+            return CreatedAtAction(nameof(GetById),
+                new { id = creado.Id },
+                creado);
         }
 
         [HttpPut("salida/{id}")]
         public async Task<IActionResult> RegistrarSalida(int id)
         {
-            await _registroRepository.RegistrarSalidaAsync(id);
-            return Ok("Salida registrada correctamente");
+            var registro = await _registroService.RegistrarSalidaAsync(id);
+            return Ok(registro);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var registro = await _registroService.GetRegistroByIdAsync(id);
+            return registro == null ? NotFound() : Ok(registro);
         }
     }
+
 }

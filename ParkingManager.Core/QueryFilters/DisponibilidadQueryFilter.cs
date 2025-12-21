@@ -16,4 +16,6 @@ public class DisponibilidadQueryFilter
     public string? Estado { get; set; }
     public int PageNumber { get; internal set; }
     public int PageSize { get; internal set; }
+    public int? Piso { get; set; }
+    public bool? Ocupado { get; set; }
 }

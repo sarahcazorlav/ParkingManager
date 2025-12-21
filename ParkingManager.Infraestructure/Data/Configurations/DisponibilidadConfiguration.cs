@@ -12,13 +12,19 @@ namespace ParkingManager.Infrastructure.Data.Configurations
 
             builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.TipoEspacio)
+            builder.Property(d => d.TipoEspacio)
                 .HasMaxLength(30)
                 .IsRequired();
 
-            builder.Property(e => e.NumeroEspacio)
+            builder.Property(d => d.NumeroEspacio)
                 .HasMaxLength(10)
                 .IsRequired();
+
+            builder.Property(d => d.Estado)
+                   .HasMaxLength(20);
+
+            builder.Property(d => d.Zona)
+                   .HasMaxLength(50);
 
             builder.HasIndex(e => e.NumeroEspacio).IsUnique();
 

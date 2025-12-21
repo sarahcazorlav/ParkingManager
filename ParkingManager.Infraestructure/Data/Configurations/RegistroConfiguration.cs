@@ -10,35 +10,33 @@ namespace ParkingManager.Infrastructure.Data.Configurations
         {
             builder.ToTable("Registros");
 
-            builder.HasKey(e => e.Id);
+            builder.HasKey(r => r.Id);
 
-            builder.Property(e => e.FechaEntrada)
+            builder.Property(r => r.Estado)
+                   .IsRequired()
+                   .HasMaxLength(20);
+
+            builder.Property(e => e.Zona)
+                    .HasMaxLength(50)
+                    .IsRequired();
+
+            builder.Property(e => e.Fecha)
                 .HasDefaultValueSql("GETDATE()");
 
-            builder.Property(e => e.FechaSalida)
-                .IsRequired(false);
+            builder.Property(r => r.MontoTotal)
+                   .HasColumnType("decimal(10,2)");
 
-            builder.Property(e => e.TiempoEstadia)
-                .IsRequired(false);
+            // 🔹 Registro -> Vehiculo (N:1)
+            builder.HasOne(r => r.Vehiculo)
+                   .WithMany(v => v.Registros)
+                   .HasForeignKey(r => r.VehiculoId)
+                   .OnDelete(DeleteBehavior.Restrict);
 
-            builder.Property(e => e.MontoTotal)
-                .HasColumnType("decimal(10,2)")
-                .IsRequired(false);
-
-            builder.Property(e => e.Estado)
-                .HasMaxLength(20)
-                .HasDefaultValue("Activo");
-
-            // Relaciones
-            builder.HasOne(e => e.Vehiculo)
-                .WithMany(v => v.Registros)
-                .HasForeignKey(e => e.VehiculoId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            builder.HasOne(e => e.Espacio)
-                .WithMany(d => d.Registros)
-                .HasForeignKey(e => e.EspacioId)
-                .OnDelete(DeleteBehavior.Restrict);
+            // 🔹 Registro -> Disponibilidad (N:1)
+            builder.HasOne(r => r.Espacio)
+                   .WithMany(d => d.Registros)
+                   .HasForeignKey(r => r.EspacioId)
+                   .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

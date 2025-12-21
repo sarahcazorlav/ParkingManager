@@ -14,31 +14,49 @@ namespace ParkingManager.Core.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<PagedList<Registro>> GetRegistrosAsync(RegistroQueryFilter filters)
+        public async Task<Registro> RegistrarEntradaAsync(Registro registro)
         {
-            var registros = await _unitOfWork.Registros.GetRegistrosAsync(filters);
-            var pagedList = PagedList<Registro>.Create(registros, filters.PageNumber, filters.PageSize);
-            return pagedList;
+            // Validar si el vehículo ya tiene un registro activo
+            var activo = await _unitOfWork.Registros
+                .GetRegistroActivoPorVehiculoAsync(registro.VehiculoId);
+
+            if (activo != null)
+                throw new Exception("El vehículo ya tiene un registro activo");
+
+            //Setear valores iniciales
+            registro.FechaEntrada = DateTime.UtcNow;
+            registro.Estado = "Activo";
+
+            // Insertar
+            await _unitOfWork.Registros.AddAsync(registro);
+            await _unitOfWork.SaveChangesAsync();
+
+            return registro;
+        }
+
+        public async Task<Registro> RegistrarSalidaAsync(int registroId)
+        {
+            var registro = await _unitOfWork.Registros.GetByIdAsync(registroId);
+
+            if (registro == null)
+                throw new Exception("Registro no encontrado");
+
+            registro.FechaSalida = DateTime.UtcNow;
+            registro.Estado = "Finalizado";
+
+            registro.TiempoEstadia =
+                (int)(registro.FechaSalida.Value - registro.FechaEntrada).TotalMinutes;
+
+            await _unitOfWork.SaveChangesAsync();
+
+            return registro;
         }
 
         public async Task<Registro?> GetRegistroByIdAsync(int id)
         {
-            return await _unitOfWork.Registros.GetRegistroByIdAsync(id);
-        }
-
-        public async Task InsertRegistroAsync(Registro registro)
-        {
-            await _unitOfWork.Registros.InsertRegistroAsync(registro);
-        }
-
-        public async Task UpdateRegistroAsync(Registro registro)
-        {
-            await _unitOfWork.Registros.UpdateRegistroAsync(registro);
-        }
-
-        public async Task DeleteRegistroAsync(int id)
-        {
-            await _unitOfWork.Registros.DeleteRegistroAsync(id);
+            return await _unitOfWork.Registros.GetByIdAsync(id);
         }
     }
+
+
 }

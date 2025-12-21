@@ -29,6 +29,28 @@ namespace ParkingManager.Core.Services
         public async Task InsertTarifaAsync(Tarifa tarifa)
         {
             await _unitOfWork.Tarifas.InsertTarifaAsync(tarifa);
+            await _unitOfWork.SaveChangesAsync();
+        }
+        public async Task<Tarifa> CrearAsync(Tarifa tarifa)
+        {
+            tarifa.FechaCreacion = DateTime.UtcNow;
+
+            await _unitOfWork.Tarifas.AddAsync(tarifa);
+
+            await _unitOfWork.SaveChangesAsync();
+
+            return tarifa;
+        }
+
+        public async Task<Tarifa> CrearTarifaAsync(Tarifa tarifa)
+        {
+            tarifa.FechaCreacion = DateTime.UtcNow;
+
+            await _unitOfWork.Tarifas.AddAsync(tarifa);
+
+            await _unitOfWork.SaveChangesAsync();
+
+            return tarifa;
         }
 
         public async Task UpdateTarifaAsync(Tarifa tarifa)

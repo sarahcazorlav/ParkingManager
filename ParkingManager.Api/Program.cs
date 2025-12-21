@@ -1,4 +1,7 @@
-﻿using FluentValidation;
+﻿// http://localhost:5044/index.html
+//FUNCIONAAA y guarda en db
+
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -16,26 +19,22 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ============================================
 // CONFIGURACIÓN - ORDEN CORRECTO
-// ============================================
 Console.WriteLine("=== INICIANDO APLICACIÓN ===");
 Console.WriteLine($"Ambiente: {builder.Environment.EnvironmentName}");
 
 if (builder.Environment.IsDevelopment())
 {
     builder.Configuration.AddUserSecrets<Program>();
-    Console.WriteLine("✅ User Secrets cargados");
+    Console.WriteLine("User Secrets cargados");
 }
 
 builder.Configuration.AddEnvironmentVariables();
 
-// ============================================
 // BASE DE DATOS
-// ============================================
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine($"🔗 Connection String configurado: {!string.IsNullOrEmpty(connectionString)}");
-Console.WriteLine($"📝 Connection String: {connectionString}"); // TEMPORAL PARA DEBUG
+Console.WriteLine($"Connection String configurado: {!string.IsNullOrEmpty(connectionString)}");
+Console.WriteLine($"Connection String: {connectionString}"); // TEMPORAL PARA DEBUG
 
 builder.Services.AddDbContext<ParkingContext>(options =>
 {
@@ -44,12 +43,17 @@ builder.Services.AddDbContext<ParkingContext>(options =>
     options.LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information);
 });
 
-// ============================================
 // INYECCIÓN DE DEPENDENCIAS
-// ============================================
 builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
 builder.Services.AddScoped<IDapperContext, DapperContext>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IVehiculoRepository, VehiculoRepository>();
+builder.Services.AddScoped<IRegistroRepository, RegistroRepository>();
+builder.Services.AddScoped<IDisponibilidadRepository, DisponibilidadRepository>();
+builder.Services.AddScoped<ITarifaRepository, TarifaRepository>();
+builder.Services.AddScoped<ISecurityRepository, SecurityRepository>();
 
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IVehiculoService, VehiculoService>();
@@ -62,14 +66,10 @@ builder.Services.AddSingleton<IPasswordService, PasswordService>();
 builder.Services.Configure<PasswordOptions>(
     builder.Configuration.GetSection("PasswordOptions"));
 
-// ============================================
 // FLUENT VALIDATION
-// ============================================
 builder.Services.AddValidatorsFromAssemblyContaining<UsuarioDtoValidator>();
 
-// ============================================
 // VERSIONAMIENTO
-// ============================================
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
@@ -83,9 +83,7 @@ builder.Services.AddApiVersioning(options =>
     );
 });
 
-// ============================================
 // CONTROLADORES Y FILTROS
-// ============================================
 builder.Services.AddControllers(options =>
 {
     options.Filters.Add<GlobalExceptionFilter>();
@@ -97,11 +95,9 @@ builder.Services.AddControllers(options =>
         System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
-// ============================================
 // AUTENTICACIÓN JWT
-// ============================================
 var jwtSecretKey = builder.Configuration["Authentication:SecretKey"];
-Console.WriteLine($"🔐 JWT SecretKey configurado: {!string.IsNullOrEmpty(jwtSecretKey)}");
+Console.WriteLine($"JWT SecretKey configurado: {!string.IsNullOrEmpty(jwtSecretKey)}");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -125,9 +121,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// ============================================
 // SWAGGER
-// ============================================
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -178,9 +172,7 @@ builder.Services.AddSwaggerGen(options =>
     options.EnableAnnotations();
 });
 
-// ============================================
 // CORS
-// ============================================
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -193,10 +185,36 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// ============================================
+if (!app.Environment.IsDevelopment())
+{
+    app.Use(async (context, next) =>
+    {
+        if (context.Request.Path.StartsWithSegments("/swagger"))
+        {
+            if (!context.User.Identity?.IsAuthenticated ?? true)
+            {
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                return;
+            }
+        }
+        await next();
+    });
+}
+
+//Desde if hasta acà
+//    ¿Qué hace?
+
+//En Development → Swagger libre
+
+//En Production → Swagger requiere JWT
+
+//Usa el mismo token JWT de tu API
+
+//💡 Esto es exactamente como se protege Swagger en APIs reales.
+
+
 // MIDDLEWARE
-// ============================================
-Console.WriteLine("🌍 Configurando middleware...");
+Console.WriteLine(" Configurando middleware...");
 
 app.UseSwagger();
 app.UseSwaggerUI(options =>
@@ -211,7 +229,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-Console.WriteLine("✅ Aplicación iniciada correctamente");
-Console.WriteLine($"🌐 Swagger disponible en: https://localhost:5044/");
+Console.WriteLine("Aplicación iniciada correctamente");
+Console.WriteLine($"Swagger disponible en: https://localhost:5044/");
 
 app.Run();

@@ -6,10 +6,8 @@ namespace ParkingManager.Core.Interfaces
 {
     public interface IRegistroService
     {
-        Task<PagedList<Registro>> GetRegistrosAsync(RegistroQueryFilter filters);
+        Task<Registro> RegistrarEntradaAsync(Registro registro);
+        Task<Registro> RegistrarSalidaAsync(int registroId);
         Task<Registro?> GetRegistroByIdAsync(int id);
-        Task InsertRegistroAsync(Registro registro);
-        Task UpdateRegistroAsync(Registro registro);
-        Task DeleteRegistroAsync(int id);
     }
 }

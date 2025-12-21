@@ -38,12 +38,12 @@ namespace ParkingManager.Core.Services
             // Validaciones
             if (await _unitOfWork.Usuarios.ExistsByEmailAsync(usuario.Email))
             {
-                throw new Exception("El email ya está registrado");
+                throw new Exception("El correo ya está registrado");
             }
 
             if (await _unitOfWork.Usuarios.ExistsByUsernameAsync(usuario.Username))
             {
-                throw new Exception("El username ya está registrado");
+                throw new Exception("El nombre de usuario ya está registrado");
             }
 
             await _unitOfWork.Usuarios.InsertUsuarioAsync(usuario);

@@ -2,6 +2,8 @@
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Services
 {
@@ -29,16 +31,28 @@ namespace ParkingManager.Core.Services
         public async Task InsertDisponibilidadAsync(Disponibilidad disponibilidad)
         {
             await _unitOfWork.Disponibilidades.InsertDisponibilidadAsync(disponibilidad);
+
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task UpdateDisponibilidadAsync(Disponibilidad disponibilidad)
         {
             await _unitOfWork.Disponibilidades.UpdateDisponibilidadAsync(disponibilidad);
+
+            await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task DeleteDisponibilidadAsync(int id)
         {
             await _unitOfWork.Disponibilidades.DeleteDisponibilidadAsync(id);
+
+            await _unitOfWork.SaveChangesAsync();
+        }
+
+        // Implementación correcta: devuelve la colección de disponibilidades por zona
+        public async Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona)
+        {
+            return await _unitOfWork.Disponibilidades.GetDisponiblesPorZonaAsync(zona);
         }
     }
 }

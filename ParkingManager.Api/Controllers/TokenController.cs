@@ -60,7 +60,7 @@ namespace ParkingManager.Api.Controllers
                     return Ok(new
                     {
                         Status = "✅ CONEXIÓN EXITOSA",
-                        Server = "YAJAIRA-PERSONA\\SQLEXPRESS",
+                        Server = "DESKTOP-GTGUPQO\\SQLEXPRESS",
                         Database = "ParkingDB",
                         TablesCount = tables.Count,
                         Tables = tables,

@@ -10,41 +10,11 @@
     "version": "v1"
   },
   "paths": {
-    "/api/v{version}/Disponibilidad": {
-      "get": {
-        "tags": [
-          "Disponibilidad"
-        ],
-        "parameters": [
-          {
-            "name": "version",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
+    "/api/Disponibilidad": {
       "post": {
         "tags": [
           "Disponibilidad"
         ],
-        "parameters": [
-          {
-            "name": "version",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -71,110 +41,18 @@
         }
       }
     },
-    "/api/v{version}/Disponibilidad/{id}": {
+    "/api/Disponibilidad/zona/{zona}": {
       "get": {
         "tags": [
           "Disponibilidad"
         ],
         "parameters": [
           {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "version",
+            "name": "zona",
             "in": "path",
             "required": true,
             "schema": {
               "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Disponibilidad"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "version",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Disponibilidad"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Disponibilidad"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Disponibilidad"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Registro": {
-      "get": {
-        "tags": [
-          "Registro"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Registro/{id}": {
-      "get": {
-        "tags": [
-          "Registro"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
             }
           }
         ],
@@ -218,6 +96,29 @@
     },
     "/api/Registro/salida/{id}": {
       "put": {
+        "tags": [
+          "Registro"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registro/{id}": {
+      "get": {
         "tags": [
           "Registro"
         ],
@@ -290,6 +191,42 @@
         "tags": [
           "Tarifa"
         ],
+        "parameters": [
+          {
+            "name": "TipoVehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Activo",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "description": "Cantidad de registros por pagina",
+            "schema": {
+              "type": "integer",
+              "description": "Cantidad de registros por pagina",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "description": "Numero de página a mostrar",
+            "schema": {
+              "type": "integer",
+              "description": "Numero de página a mostrar",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -327,6 +264,27 @@
       }
     },
     "/api/Tarifa/{id}": {
+      "get": {
+        "tags": [
+          "Tarifa"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "put": {
         "tags": [
           "Tarifa"
@@ -673,16 +631,6 @@
       }
     },
     "/api/Vehiculo": {
-      "get": {
-        "tags": [
-          "Vehiculo"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
       "post": {
         "tags": [
           "Vehiculo"
@@ -715,67 +663,6 @@
     },
     "/api/Vehiculo/{id}": {
       "get": {
-        "tags": [
-          "Vehiculo"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Vehiculo"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Vehiculo"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Vehiculo"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Vehiculo"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
         "tags": [
           "Vehiculo"
         ],
@@ -882,12 +769,6 @@
             "type": "string",
             "nullable": true
           },
-          "Vehiculo": {
-            "$ref": "#/components/schemas/Vehiculo"
-          },
-          "Espacio": {
-            "$ref": "#/components/schemas/Disponibilidad"
-          },
           "Zona": {
             "type": "string",
             "nullable": true
@@ -895,6 +776,12 @@
           "Fecha": {
             "type": "string",
             "format": "date-time"
+          },
+          "Vehiculo": {
+            "$ref": "#/components/schemas/Vehiculo"
+          },
+          "Espacio": {
+            "$ref": "#/components/schemas/Disponibilidad"
           }
         },
         "additionalProperties": false

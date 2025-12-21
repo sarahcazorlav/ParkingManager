@@ -8,28 +8,39 @@ namespace ParkingManager.Infrastructure.Repositories
 {
     public class VehiculoRepository : BaseRepository<Vehiculo>, IVehiculoRepository
     {
-        public VehiculoRepository(ParkingContext context, IDapperContext dapper) : base(context) { }
+        public VehiculoRepository(ParkingContext context, IDapperContext dapper)
+            : base(context) { }
 
-        public Task<Vehiculo?> GetVehiculoPorPlacaAsync(string placa)
+        public async Task InsertVehiculoAsync(Vehiculo vehiculo)
         {
-            throw new NotImplementedException();
+            await _context.Vehiculos.AddAsync(vehiculo);
         }
 
-        public async Task<(IEnumerable<Vehiculo> vehiculos, int total)> GetVehiculosAsync(VehiculoQueryFilter filters)
+        public async Task UpdateVehiculoAsync(Vehiculo vehiculo)
         {
-            var query = _entities.AsQueryable();
+            _context.Vehiculos.Update(vehiculo);
+        }
+
+        public async Task DeleteVehiculoAsync(int id)
+        {
+            var vehiculo = await _context.Vehiculos.FindAsync(id);
+            if (vehiculo != null)
+                _context.Vehiculos.Remove(vehiculo);
+        }
+
+        public async Task<Vehiculo?> GetVehiculoByIdAsync(int id)
+        {
+            return await _context.Vehiculos.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<Vehiculo>> GetVehiculosAsync(VehiculoQueryFilter filters)
+        {
+            var query = _context.Vehiculos.AsQueryable();
 
             if (!string.IsNullOrEmpty(filters.Placa))
                 query = query.Where(v => v.Placa.Contains(filters.Placa));
 
-            var total = await query.CountAsync();
-
-            var vehiculos = await query
-                .Skip((filters.PageNumber - 1) * filters.PageSize)
-                .Take(filters.PageSize)
-                .ToListAsync();
-
-            return (vehiculos, total);
+            return await query.ToListAsync();
         }
 
         public Task<IEnumerable<Vehiculo>> GetVehiculosPorUsuarioAsync(int usuarioId)
@@ -37,29 +48,10 @@ namespace ParkingManager.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        Task IVehiculoRepository.DeleteVehiculoAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Vehiculo?> IVehiculoRepository.GetVehiculoByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<IEnumerable<Vehiculo>> IVehiculoRepository.GetVehiculosAsync(VehiculoQueryFilter filters)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IVehiculoRepository.InsertVehiculoAsync(Vehiculo vehiculo)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IVehiculoRepository.UpdateVehiculoAsync(Vehiculo vehiculo)
+        public Task<Vehiculo?> GetVehiculoPorPlacaAsync(string placa)
         {
             throw new NotImplementedException();
         }
     }
+
 }

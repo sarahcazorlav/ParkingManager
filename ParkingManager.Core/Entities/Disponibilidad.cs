@@ -10,7 +10,9 @@
 
         // Navegación
         public virtual ICollection<Registro> Registros { get; set; } = new List<Registro>();
-        public string Estado { get; set; }
-        public string Zona { get; set; }
+
+        // Inicializar para evitar valores nulos al persistir
+        public string Estado { get; set; } = string.Empty;
+        public string Zona { get; set; } = string.Empty;
     }
 }

@@ -6,6 +6,6 @@ public class VehiculoDto
     public string? Marca { get; set; }
     public string? Modelo { get; set; }
     public string? Color { get; set; }
-    public int UsuarioId { get; set; }
-    public object? Tipo { get; internal set; }
+    public int IdUsuario { get; set; }
+    public object? TipoVehiculo { get; internal set; }
 }

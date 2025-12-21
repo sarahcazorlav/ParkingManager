@@ -26,10 +26,14 @@ namespace ParkingManager.Core.Services
             return await _unitOfWork.Vehiculos.GetVehiculoByIdAsync(id);
         }
 
-        public async Task InsertVehiculoAsync(Vehiculo vehiculo)
+        public async Task<Vehiculo> InsertVehiculoAsync(Vehiculo vehiculo)
         {
             await _unitOfWork.Vehiculos.InsertVehiculoAsync(vehiculo);
+            await _unitOfWork.SaveChangesAsync();
+
+            return vehiculo;
         }
+
 
         public async Task UpdateVehiculoAsync(Vehiculo vehiculo)
         {
@@ -39,6 +43,11 @@ namespace ParkingManager.Core.Services
         public async Task DeleteVehiculoAsync(int id)
         {
             await _unitOfWork.Vehiculos.DeleteVehiculoAsync(id);
+        }
+
+        Task IVehiculoService.InsertVehiculoAsync(Vehiculo vehiculo)
+        {
+            return InsertVehiculoAsync(vehiculo);
         }
     }
 }

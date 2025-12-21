@@ -8,50 +8,79 @@ namespace ParkingManager.Infrastructure.Repositories
 {
     public class TarifaRepository : BaseRepository<Tarifa>, ITarifaRepository
     {
-        public TarifaRepository(ParkingContext context, IDapperContext dapper) : base(context) { }
+        private readonly ParkingContext _context;
 
-        public Task DeleteTarifaAsync(int id)
+        public TarifaRepository(ParkingContext context)
+              : base(context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public Task<Tarifa?> GetTarifaByIdAsync(int id)
+        // Agrega este constructor a la clase TarifaRepository
+        public TarifaRepository(ParkingContext context, IDapperContext dapper) : base(context)
         {
-            throw new NotImplementedException();
+            _context = context;
+            // Si necesitas usar dapper, guárdalo en un campo privado
+            // _dapper = dapper;
         }
 
-        public Task<Tarifa?> GetTarifaPorTipoVehiculoAsync(string tipoVehiculo)
+
+        public async Task AddAsync(Tarifa tarifa)
         {
-            throw new NotImplementedException();
+            await _context.Tarifas.AddAsync(tarifa);
         }
 
-        public async Task<(IEnumerable<Tarifa> tarifas, int total)> GetTarifasAsync(TarifaQueryFilter filters)
+        public async Task InsertTarifaAsync(Tarifa tarifa)
         {
-            var query = _entities.AsQueryable();
-
-            var total = await query.CountAsync();
-
-            var tarifas = await query
-                .Skip((filters.PageNumber - 1) * filters.PageSize)
-                .Take(filters.PageSize)
-                .ToListAsync();
-
-            return (tarifas, total);
+            await _context.Tarifas.AddAsync(tarifa);
         }
 
-        public Task InsertTarifaAsync(Tarifa tarifa)
+        public async Task UpdateTarifaAsync(Tarifa tarifa)
         {
-            throw new NotImplementedException();
+            _context.Tarifas.Update(tarifa);
+            await Task.CompletedTask;
         }
 
-        public Task UpdateTarifaAsync(Tarifa tarifa)
+        public async Task DeleteTarifaAsync(int id)
         {
-            throw new NotImplementedException();
+            var tarifa = await _context.Tarifas.FindAsync(id);
+            if (tarifa != null)
+                _context.Tarifas.Remove(tarifa);
         }
 
-        Task<IEnumerable<Tarifa>> ITarifaRepository.GetTarifasAsync(TarifaQueryFilter filters)
+        public async Task<Tarifa?> GetTarifaPorTipoVehiculoAsync(string tipoVehiculo)
         {
-            throw new NotImplementedException();
+            return await _context.Tarifas
+                .FirstOrDefaultAsync(t => t.TipoVehiculo == tipoVehiculo && t.Activo);
+        }
+
+        public async Task<Tarifa?> GetTarifaByIdAsync(int id)
+        {
+            return await _context.Tarifas.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<Tarifa>> GetTarifasAsync(TarifaQueryFilter filters)
+        {
+            var query = _context.Tarifas.AsQueryable();
+
+            if (filters is not null)
+            {
+                if (!string.IsNullOrWhiteSpace(filters.TipoVehiculo))
+                    query = query.Where(t => t.TipoVehiculo == filters.TipoVehiculo);
+
+                if (filters.Activo.HasValue)
+                    query = query.Where(t => t.Activo == filters.Activo.Value);
+
+                if (filters.PageSize > 0)
+                {
+                    var pageNumber = filters.PageNumber <= 0 ? 1 : filters.PageNumber;
+                    query = query.Skip((pageNumber - 1) * filters.PageSize)
+                                 .Take(filters.PageSize);
+                }
+            }
+
+            return await query.ToListAsync();
         }
     }
+
 }

@@ -106,14 +106,25 @@ namespace ParkingManager.Infrastructure.Repositories
             }
         }
 
-        Task<Usuario?> IUsuarioRepository.GetByEmailAsync(string email)
+        public async Task<Usuario?> GetByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            var sql = @"
+        SELECT Id, Nombre, Apellido, Email, Username, Telefono, Rol, 
+               Password, FechaRegistro, Activo
+        FROM Usuarios
+        WHERE Email = @Email";
+
+            return await _dapperContext.QueryFirstOrDefaultAsync<Usuario>(
+                sql, new { Email = email });
         }
 
-        Task<bool> IUsuarioRepository.ExistsByUsernameAsync(string username)
+        public async Task<bool> ExistsByUsernameAsync(string username)
         {
-            throw new NotImplementedException();
+            var sql = "SELECT COUNT(1) FROM Usuarios WHERE Username = @Username";
+            var count = await _dapperContext.ExecuteScalarAsync<int>(
+                sql, new { Username = username });
+            return count > 0;
         }
+
     }
 }

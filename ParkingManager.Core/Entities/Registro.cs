@@ -1,4 +1,5 @@
-﻿namespace ParkingManager.Core.Entities
+﻿//Ya funciona Registros
+namespace ParkingManager.Core.Entities
 {
     public class Registro : BaseEntity
     {
@@ -10,11 +11,13 @@
         public int? TiempoEstadia { get; set; } // En minutos
         public decimal? MontoTotal { get; set; }
         public string Estado { get; set; } = "Activo"; // 'Activo', 'Finalizado'
+        public string Zona { get; set; }
+        public DateTime Fecha { get; set; }
 
         // Navegación
         public Vehiculo? Vehiculo { get; set; }
         public Disponibilidad? Espacio { get; set; }
-        public string Zona { get; set; }
-        public DateTime Fecha { get; set; }
+        
+        
     }
 }

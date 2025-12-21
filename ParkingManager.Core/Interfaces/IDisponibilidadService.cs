@@ -1,6 +1,8 @@
 ﻿using ParkingManager.Core.CustomEntities;
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.QueryFilters;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ParkingManager.Core.Interfaces
 {
@@ -11,5 +13,8 @@ namespace ParkingManager.Core.Interfaces
         Task InsertDisponibilidadAsync(Disponibilidad disponibilidad);
         Task UpdateDisponibilidadAsync(Disponibilidad disponibilidad);
         Task DeleteDisponibilidadAsync(int id);
+
+        // Devuelve la lista de disponibilidades por zona
+        Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona);
     }
 }

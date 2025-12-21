@@ -44,9 +44,26 @@ namespace ParkingManager.Infrastructure.Repositories
         public ISecurityRepository Security =>
             _securityRepository ??= new SecurityRepository(_context, _dapper);
 
+
         public async Task<int> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync();
+        }
+
+        //// Este método es específico para el repositorio de Usuario,
+        //public Task<int> SaveChangesAsync()
+        //{
+        //    // Dapper ejecuta los cambios inmediatamente
+        //    return Task.FromResult(0);
+        //}
+        
+
+
+        // Implementación requerida para usuario
+        public Task<int> SaveChangesAsyncUsuario()
+        {
+            // Aquí puedes personalizar la lógica si es necesario
+            return _context.SaveChangesAsync();
         }
 
         public async Task BeginTransactionAsync()

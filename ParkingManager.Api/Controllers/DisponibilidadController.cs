@@ -1,55 +1,38 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
+using System.Threading.Tasks;
 
-namespace Parking.API.Controllers
+namespace ParkingManager.Api.Controllers
 {
     [ApiController]
-    [Produces("application/json")]
-    [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [Route("api/[controller]")]
     public class DisponibilidadController : ControllerBase
     {
-        private readonly IDisponibilidadRepository _disponibilidadRepository;
+        private readonly IDisponibilidadService _service;
 
-        public DisponibilidadController(IDisponibilidadRepository disponibilidadRepository)
+        public DisponibilidadController(IDisponibilidadService service)
         {
-            _disponibilidadRepository = disponibilidadRepository;
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            var lugares = await _disponibilidadRepository.GetAllAsync();
-            return Ok(lugares);
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
-        {
-            var lugar = await _disponibilidadRepository.GetByIdAsync(id);
-            if (lugar == null)
-                return NotFound("Lugar no encontrado");
-
-            return Ok(lugar);
+            _service = service;
         }
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Disponibilidad disponibilidad)
         {
-            await _disponibilidadRepository.AddAsync(disponibilidad);
-            return Ok(disponibilidad);
+            await _service.InsertDisponibilidadAsync(disponibilidad);
+
+            return CreatedAtAction(
+                nameof(GetPorZona),
+                new { zona = disponibilidad.Zona },
+                disponibilidad
+            );
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Disponibilidad disponibilidad)
+        [HttpGet("zona/{zona}")]
+        public async Task<IActionResult> GetPorZona(string zona)
         {
-            if (id != disponibilidad.Id)
-                return BadRequest("El ID no coincide");
-
-            await _disponibilidadRepository.UpdateAsync(disponibilidad);
-            return NoContent();
+            var result = await _service.GetDisponiblesPorZonaAsync(zona);
+            return Ok(result);
         }
-
     }
 }

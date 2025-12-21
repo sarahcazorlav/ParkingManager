@@ -1,12 +1,34 @@
 [
   {
-    "ContainingType": "Parking.API.Controllers.RegistroController",
-    "Method": "GetAll",
-    "RelativePath": "api/Registro",
+    "ContainingType": "ParkingManager.Api.Controllers.DisponibilidadController",
+    "Method": "Create",
+    "RelativePath": "api/Disponibilidad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "disponibilidad",
+        "Type": "ParkingManager.Core.Entities.Disponibilidad",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingManager.Api.Controllers.DisponibilidadController",
+    "Method": "GetPorZona",
+    "RelativePath": "api/Disponibilidad/zona/{zona}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "zona",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -90,7 +112,28 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "TipoVehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -104,6 +147,22 @@
       {
         "Name": "tarifa",
         "Type": "ParkingManager.Core.Entities.Tarifa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Parking.API.Controllers.TarifaController",
+    "Method": "GetTarifaById",
+    "RelativePath": "api/Tarifa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -277,90 +336,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Parking.API.Controllers.DisponibilidadController",
-    "Method": "GetAll",
-    "RelativePath": "api/v{version}/Disponibilidad",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.DisponibilidadController",
-    "Method": "Create",
-    "RelativePath": "api/v{version}/Disponibilidad",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "disponibilidad",
-        "Type": "ParkingManager.Core.Entities.Disponibilidad",
-        "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.DisponibilidadController",
-    "Method": "GetById",
-    "RelativePath": "api/v{version}/Disponibilidad/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.DisponibilidadController",
-    "Method": "Update",
-    "RelativePath": "api/v{version}/Disponibilidad/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "disponibilidad",
-        "Type": "ParkingManager.Core.Entities.Disponibilidad",
-        "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "ParkingManager.Api.Controllers.UsuarioV2Controller",
     "Method": "GetUsuarios",
     "RelativePath": "api/v{version}/usuario",
@@ -399,16 +374,6 @@
   },
   {
     "ContainingType": "Parking.API.Controllers.VehiculoController",
-    "Method": "GetAll",
-    "RelativePath": "api/Vehiculo",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.VehiculoController",
     "Method": "Create",
     "RelativePath": "api/Vehiculo",
     "HttpMethod": "POST",
@@ -428,43 +393,6 @@
     "Method": "GetById",
     "RelativePath": "api/Vehiculo/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.VehiculoController",
-    "Method": "Update",
-    "RelativePath": "api/Vehiculo/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "vehiculo",
-        "Type": "ParkingManager.Core.Entities.Vehiculo",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Parking.API.Controllers.VehiculoController",
-    "Method": "Delete",
-    "RelativePath": "api/Vehiculo/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

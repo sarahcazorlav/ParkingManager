@@ -56,9 +56,9 @@ namespace ParkingManager.Api.Controllers
             var usuario = await _usuarioService.GetUsuarioByIdAsync(id);
             if (usuario == null)
                 return NotFound();
-
             return Ok(usuario);
         }
+
 
         /// <summary>
         /// Crea un nuevo usuario.

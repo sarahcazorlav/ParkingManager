@@ -13,7 +13,7 @@ namespace ParkingManager.Infrastructure.Validators
             RuleFor(v => v.Marca)
                 .NotEmpty().WithMessage("Debe ingresar la marca del vehículo");
 
-            RuleFor(v => v.UsuarioId)
+            RuleFor(v => v.IdUsuario)
                 .GreaterThan(0).WithMessage("Debe asignar un usuario al vehículo");
         }
     }

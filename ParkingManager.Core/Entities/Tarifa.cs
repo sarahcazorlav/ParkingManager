@@ -10,3 +10,5 @@
         public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
     }
 }
+
+//funciona todo en Tarifa

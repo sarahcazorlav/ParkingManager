@@ -12,6 +12,7 @@ namespace ParkingManager.Core.Interfaces
         ISecurityRepository Security { get; }
 
         Task<int> SaveChangesAsync();
+        Task<int> SaveChangesAsyncUsuario();
         Task BeginTransactionAsync();
         Task CommitAsync();
         Task RollbackAsync();

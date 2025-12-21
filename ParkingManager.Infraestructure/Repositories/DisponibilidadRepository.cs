@@ -6,63 +6,59 @@ using ParkingManager.Infrastructure.Data;
 
 namespace ParkingManager.Infrastructure.Repositories
 {
-    public class DisponibilidadRepository : BaseRepository<Disponibilidad>, IDisponibilidadRepository
+    public class DisponibilidadRepository
+    : BaseRepository<Disponibilidad>, IDisponibilidadRepository
     {
-        private readonly ParkingContext _context;
-        private readonly DbSet<Disponibilidad> _entities;
+        public DisponibilidadRepository(ParkingContext context, IDapperContext dapper)
+            : base(context) { }
 
-        public DisponibilidadRepository(ParkingContext context, IDapperContext dapper) : base(context)
+        public async Task<IEnumerable<Disponibilidad>> GetDisponiblesPorZonaAsync(string zona)
         {
-            _context = context;
-            _entities = context.Set<Disponibilidad>();
+            return await _context.Disponibilidades
+                .Where(d => d.Zona == zona && !d.Ocupado)
+                .ToListAsync();
         }
-
-        public async Task<IEnumerable<Disponibilidad>> GetDisponibilidadesAsync(DisponibilidadQueryFilter filter)
+        public async Task DeleteDisponibilidadAsync(int id)
         {
-            var query = _entities.AsQueryable();
-
-            if (!string.IsNullOrEmpty(filter.Zona))
-                query = query.Where(x => x.Zona == filter.Zona);
-
-            if (!string.IsNullOrEmpty(filter.Estado))
-                query = query.Where(x => x.Estado == filter.Estado);
-
-            return await query.ToListAsync();
+            var entity = await _context.Disponibilidades.FindAsync(id);
+            if (entity != null)
+            {
+                _context.Disponibilidades.Remove(entity);
+            }
         }
 
         public async Task<Disponibilidad?> GetDisponibilidadByIdAsync(int id)
         {
-            return await _entities.FirstOrDefaultAsync(d => d.Id == id);
+            return await _context.Disponibilidades.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<Disponibilidad>> GetDisponibilidadesAsync(DisponibilidadQueryFilter filters)
+        {
+            var query = _context.Disponibilidades.AsQueryable();
+
+            if (!string.IsNullOrEmpty(filters.Zona))
+                query = query.Where(d => d.Zona == filters.Zona);
+
+            if (!string.IsNullOrEmpty(filters.Estado))
+                query = query.Where(d => d.Estado == filters.Estado);
+
+            if (filters.Piso.HasValue)
+                query = query.Where(d => d.Piso == filters.Piso.Value);
+
+            if (filters.Ocupado.HasValue)
+                query = query.Where(d => d.Ocupado == filters.Ocupado.Value);
+
+            return await query.ToListAsync();
         }
 
         public async Task InsertDisponibilidadAsync(Disponibilidad disponibilidad)
         {
-            await _entities.AddAsync(disponibilidad);
+            await _context.Disponibilidades.AddAsync(disponibilidad);
         }
 
         public async Task UpdateDisponibilidadAsync(Disponibilidad disponibilidad)
         {
-            _entities.Update(disponibilidad);
-            await Task.CompletedTask;
-        }
-
-        public async Task DeleteDisponibilidadAsync(int id)
-        {
-            var entity = await GetDisponibilidadByIdAsync(id);
-            if (entity != null)
-                _entities.Remove(entity);
-        }
-
-        public async Task<IEnumerable<Disponibilidad>> GetLibresAsync()
-        {
-            return await _entities
-                .Where(d => d.Estado == "Libre")
-                .ToListAsync();
-        }
-
-        Task<IEnumerable<Disponibilidad>> IDisponibilidadRepository.GetDisponiblesPorZonaAsync(string zona)
-        {
-            throw new NotImplementedException();
+            _context.Disponibilidades.Update(disponibilidad);
         }
     }
 }
