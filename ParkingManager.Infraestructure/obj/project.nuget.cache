@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/7wCQkn+ksE=",
+  "dgSpecHash": "PUtxmgb5u0g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Melissa\\Desktop\\ParkingM\\ParkingManager.Infraestructure\\ParkingManager.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Melissa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Melissa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

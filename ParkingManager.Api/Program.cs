@@ -190,21 +190,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
-{
-    app.Use(async (context, next) =>
-    {
-        if (context.Request.Path.StartsWithSegments("/swagger"))
-        {
-            if (!context.User.Identity?.IsAuthenticated ?? true)
-            {
-                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                return;
-            }
-        }
-        await next();
-    });
-}
 
 //Desde if hasta acà
 //    ¿Qué hace?

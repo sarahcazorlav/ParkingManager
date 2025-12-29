@@ -1,0 +1,875 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ParkingManager API",
+    "description": "API para gestión de estacionamientos",
+    "contact": {
+      "name": "Equipo de Desarrollo",
+      "email": "desarrollo@parkingmanager.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Disponibilidad": {
+      "post": {
+        "tags": [
+          "Disponibilidad"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Disponibilidad"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Disponibilidad/zona/{zona}": {
+      "get": {
+        "tags": [
+          "Disponibilidad"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "zona",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Disponibilidad/rango-fechas": {
+      "get": {
+        "tags": [
+          "Disponibilidad"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "fechaInicio",
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "query",
+            "name": "fechaFin",
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registro/entrada": {
+      "post": {
+        "tags": [
+          "Registro"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Registro"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registro/salida/{id}": {
+      "put": {
+        "tags": [
+          "Registro"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registro/{id}": {
+      "get": {
+        "tags": [
+          "Registro"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Security/register": {
+      "post": {
+        "tags": [
+          "Security"
+        ],
+        "summary": "Registra un nuevo usuario en el sistema",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Datos del usuario",
+            "schema": {
+              "$ref": "#/definitions/SecurityDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Security/me": {
+      "get": {
+        "tags": [
+          "Security"
+        ],
+        "summary": "Obtiene información del usuario autenticado (requiere token)",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tarifa": {
+      "get": {
+        "tags": [
+          "Tarifa"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "TipoVehiculo",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "Activo",
+            "type": "boolean"
+          },
+          {
+            "in": "query",
+            "name": "PageSize",
+            "description": "Cantidad de registros por pagina",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "PageNumber",
+            "description": "Numero de página a mostrar",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Tarifa"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Tarifa"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tarifa/{id}": {
+      "get": {
+        "tags": [
+          "Tarifa"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Tarifa"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Tarifa"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/TestDb/check": {
+      "get": {
+        "tags": [
+          "TestDb"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Token/test-connection": {
+      "get": {
+        "tags": [
+          "Token"
+        ],
+        "summary": "Autentica un usuario y genera un token JWT",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Token": {
+      "post": {
+        "tags": [
+          "Token"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/UserLogin"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Token/config": {
+      "get": {
+        "tags": [
+          "Token"
+        ],
+        "summary": "Endpoint de prueba para verificar la configuración",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuario": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "summary": "Obtiene la lista de usuarios con filtros y paginación.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Nombre",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "Email",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "Rol",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "Activo",
+            "type": "boolean"
+          },
+          {
+            "in": "query",
+            "name": "PageSize",
+            "description": "Cantidad de registros por pagina",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "PageNumber",
+            "description": "Numero de página a mostrar",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "summary": "Crea un nuevo usuario.",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Usuario"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuario/{id}": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "summary": "Obtiene un usuario por su ID.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Usuario"
+        ],
+        "summary": "Actualiza un usuario existente.",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Usuario"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Usuario"
+        ],
+        "summary": "Elimina un usuario por ID.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/usuario": {
+      "get": {
+        "tags": [
+          "UsuarioV"
+        ],
+        "summary": "Obtiene usuarios (Versión 2 - Mejorada con información adicional)",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "version",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/usuario/{id}": {
+      "get": {
+        "tags": [
+          "UsuarioV"
+        ],
+        "summary": "Obtiene un usuario por ID (V2)",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "version",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vehiculo": {
+      "post": {
+        "tags": [
+          "Vehiculo"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Vehiculo"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vehiculo/{id}": {
+      "get": {
+        "tags": [
+          "Vehiculo"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Disponibilidad": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "TipoEspacio": {
+          "type": "string"
+        },
+        "NumeroEspacio": {
+          "type": "string"
+        },
+        "Piso": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Ocupado": {
+          "type": "boolean"
+        },
+        "FechaActualizacion": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Registros": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Registro"
+          }
+        },
+        "Estado": {
+          "type": "string"
+        },
+        "Zona": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Registro": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "VehiculoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "EspacioId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "FechaEntrada": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "FechaSalida": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "TiempoEstadia": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "MontoTotal": {
+          "format": "double",
+          "type": "number"
+        },
+        "Estado": {
+          "type": "string"
+        },
+        "Zona": {
+          "type": "string"
+        },
+        "Fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Vehiculo": {
+          "$ref": "#/definitions/Vehiculo"
+        },
+        "Espacio": {
+          "$ref": "#/definitions/Disponibilidad"
+        }
+      },
+      "additionalProperties": false
+    },
+    "RoleType": {
+      "format": "int32",
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "type": "integer"
+    },
+    "SecurityDto": {
+      "type": "object",
+      "properties": {
+        "Login": {
+          "type": "string"
+        },
+        "Password": {
+          "type": "string"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Role": {
+          "$ref": "#/definitions/RoleType"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Tarifa": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "TipoVehiculo": {
+          "type": "string"
+        },
+        "TarifaPorHora": {
+          "format": "double",
+          "type": "number"
+        },
+        "TarifaPorDia": {
+          "format": "double",
+          "type": "number"
+        },
+        "Descripcion": {
+          "type": "string"
+        },
+        "Activo": {
+          "type": "boolean"
+        },
+        "FechaCreacion": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "UserLogin": {
+      "type": "object",
+      "properties": {
+        "User": {
+          "type": "string"
+        },
+        "Password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Usuario": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Password": {
+          "type": "string"
+        },
+        "Nombre": {
+          "type": "string"
+        },
+        "Apellido": {
+          "type": "string"
+        },
+        "Email": {
+          "type": "string"
+        },
+        "Username": {
+          "type": "string"
+        },
+        "Telefono": {
+          "type": "string"
+        },
+        "Rol": {
+          "type": "string"
+        },
+        "FechaRegistro": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Activo": {
+          "type": "boolean"
+        },
+        "Vehiculos": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Vehiculo"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "Vehiculo": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "IdUsuario": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Placa": {
+          "type": "string"
+        },
+        "Marca": {
+          "type": "string"
+        },
+        "Modelo": {
+          "type": "string"
+        },
+        "Color": {
+          "type": "string"
+        },
+        "TipoVehiculo": {
+          "type": "string"
+        },
+        "FechaRegistro": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Activo": {
+          "type": "boolean"
+        },
+        "Usuario": {
+          "$ref": "#/definitions/Usuario"
+        },
+        "Registros": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Registro"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "securityDefinitions": {
+    "Bearer": { }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

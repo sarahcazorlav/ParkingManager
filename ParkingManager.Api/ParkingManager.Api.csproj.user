@@ -4,7 +4,7 @@
     <ActiveDebugProfile>http</ActiveDebugProfile>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>C:\Users\Melissa\Desktop\TecWeb\ParkingManager\ParkingManager.Api\Properties\PublishProfiles\ParkingManager-api - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Melissa\Desktop\ParkingM\ParkingManager.Api\Properties\PublishProfiles\ParkingManager-api-v2 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

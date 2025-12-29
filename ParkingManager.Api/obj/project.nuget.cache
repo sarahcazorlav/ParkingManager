@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ASfqNE3bluo=",
+  "dgSpecHash": "1RAtnkhV3gY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Melissa\\Desktop\\TecWeb\\ParkingManager\\ParkingManager.Api\\ParkingManager.Api.csproj",
+  "projectFilePath": "C:\\Users\\Melissa\\Desktop\\ParkingM\\ParkingManager.Api\\ParkingManager.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Melissa\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Users\\Melissa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

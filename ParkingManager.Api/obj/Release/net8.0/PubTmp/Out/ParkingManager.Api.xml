@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkingManager.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ParkingManager.Api.Controllers.SecurityController.Register(ParkingManager.Infrastructure.DTOs.SecurityDto)">
+            <summary>
+            Registra un nuevo usuario en el sistema
+            </summary>
+            <param name="securityDto">Datos del usuario</param>
+            <returns>Usuario registrado</returns>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.SecurityController.GetCurrentUser">
+            <summary>
+            Obtiene información del usuario autenticado (requiere token)
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.TokenController.TestConnection">
+            <summary>
+            Autentica un usuario y genera un token JWT
+            </summary>
+            <param name="userLogin">Credenciales del usuario</param>
+            <returns>Token JWT</returns>
+            
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.TokenController.GetConfig">
+            <summary>
+            Endpoint de prueba para verificar la configuración
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioController.GetUsuarios(ParkingManager.Core.QueryFilters.UsuarioQueryFilter)">
+            <summary>
+            Obtiene la lista de usuarios con filtros y paginación.
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioController.GetUsuario(System.Int32)">
+            <summary>
+            Obtiene un usuario por su ID.
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioController.PostUsuario(ParkingManager.Core.Entities.Usuario)">
+            <summary>
+            Crea un nuevo usuario.
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioController.PutUsuario(System.Int32,ParkingManager.Core.Entities.Usuario)">
+            <summary>
+            Actualiza un usuario existente.
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioController.DeleteUsuario(System.Int32)">
+            <summary>
+            Elimina un usuario por ID.
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioV2Controller.GetUsuarios">
+            <summary>
+            Obtiene usuarios (Versión 2 - Mejorada con información adicional)
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.UsuarioV2Controller.GetUsuario(System.Int32)">
+            <summary>
+            Obtiene un usuario por ID (V2)
+            </summary>
+        </member>
+    </members>
+</doc>
