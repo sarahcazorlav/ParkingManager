@@ -1,5 +1,4 @@
 ﻿using ParkingManager.Core.CustomEntities;
-using ParkingManager.Core.DTOs;
 using ParkingManager.Core.Entities;
 using ParkingManager.Core.Interfaces;
 using ParkingManager.Core.QueryFilters;

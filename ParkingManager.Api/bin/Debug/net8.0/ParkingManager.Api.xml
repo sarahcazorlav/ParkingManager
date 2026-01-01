@@ -4,6 +4,16 @@
         <name>ParkingManager.Api</name>
     </assembly>
     <members>
+        <member name="M:ParkingManager.Api.Controllers.DisponibilidadController.GetDisponibilidadPorRango(ParkingManager.Infrastructure.DTOs.DisponibilidadRangoRequestDto)">
+            <summary>
+            Obtiene la disponibilidad de todos los espacios en un rango de fechas
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.DisponibilidadController.GetEspaciosDisponiblesPorRango(ParkingManager.Infrastructure.DTOs.DisponibilidadRangoRequestDto)">
+            <summary>
+            Obtiene solo los espacios disponibles en un rango de fechas
+            </summary>
+        </member>
         <member name="M:ParkingManager.Api.Controllers.SecurityController.Register(ParkingManager.Infrastructure.DTOs.SecurityDto)">
             <summary>
             Registra un nuevo usuario en el sistema

@@ -64,28 +64,62 @@
       }
     },
     "/api/Disponibilidad/rango-fechas": {
-      "get": {
+      "post": {
         "tags": [
           "Disponibilidad"
         ],
-        "parameters": [
-          {
-            "name": "fechaInicio",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "fechaFin",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
+        "summary": "Obtiene la disponibilidad de todos los espacios en un rango de fechas",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
             }
           }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Disponibilidad/disponibles/rango-fechas": {
+      "post": {
+        "tags": [
+          "Disponibilidad"
         ],
+        "summary": "Obtiene solo los espacios disponibles en un rango de fechas",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisponibilidadRangoRequestDto"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -757,6 +791,36 @@
           "Zona": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DisponibilidadRangoRequestDto": {
+        "type": "object",
+        "properties": {
+          "DiaInicio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MesInicio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AnioInicio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "DiaFinal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MesFinal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AnioFinal": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
