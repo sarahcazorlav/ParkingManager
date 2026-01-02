@@ -4,6 +4,16 @@
         <name>ParkingManager.Api</name>
     </assembly>
     <members>
+        <member name="M:ParkingManager.Api.Controllers.DisponibilidadController.Create(ParkingManager.Core.Entities.Disponibilidad)">
+            <summary>
+            Crea una nueva disponibilidad de espacio
+            </summary>
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.DisponibilidadController.GetPorZona(System.String)">
+            <summary>
+            Obtiene solo los espacios disponibles en una zona específica, ejemplo: ZonaA
+            </summary>
+        </member>
         <member name="M:ParkingManager.Api.Controllers.DisponibilidadController.GetDisponibilidadPorRango(ParkingManager.Infrastructure.DTOs.DisponibilidadRangoRequestDto)">
             <summary>
             Obtiene la disponibilidad de todos los espacios en un rango de fechas
@@ -26,6 +36,11 @@
             Obtiene información del usuario autenticado (requiere token)
             </summary>
         </member>
+        <member name="M:ParkingManager.Api.Controllers.TestDbController.CheckConnection">
+            <summary>
+            Verifica la conexión con la base de datos
+            </summary>
+        </member>
         <member name="M:ParkingManager.Api.Controllers.TokenController.TestConnection">
             <summary>
             Autentica un usuario y genera un token JWT
@@ -33,6 +48,11 @@
             <param name="userLogin">Credenciales del usuario</param>
             <returns>Token JWT</returns>
             
+        </member>
+        <member name="M:ParkingManager.Api.Controllers.TokenController.Authentication(ParkingManager.Core.Entities.UserLogin)">
+            <summary>
+            Autentica un usuario y genera un token JWT
+            </summary>
         </member>
         <member name="M:ParkingManager.Api.Controllers.TokenController.GetConfig">
             <summary>
@@ -74,5 +94,42 @@
             Obtiene un usuario por ID (V2)
             </summary>
         </member>
+        <member name="M:Parking.API.Controllers.RegistroController.RegistrarEntrada(ParkingManager.Core.Entities.Registro)">
+            <summary>
+            Registra la entrada de un vehículo al estacionamiento
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.RegistroController.RegistrarSalida(System.Int32)">
+            <summary>
+            Registra la salida de un vehículo del estacionamiento
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.RegistroController.GetById(System.Int32)">
+            <summary>
+            Obtiene un registro por su ID
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.TarifaController.GetAll(ParkingManager.Core.QueryFilters.TarifaQueryFilter)">
+            <summary>
+            Obtiene todas las tarifas con filtros opcionales
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.TarifaController.GetTarifaById(System.Int32)">
+            <summary>
+            Obtiene una tarifa por su ID
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.TarifaController.Create(ParkingManager.Core.Entities.Tarifa)">
+            <summary>
+            Crea una nueva tarifa
+            </summary>
+        </member>
+        <member name="M:Parking.API.Controllers.TarifaController.Update(System.Int32,ParkingManager.Core.Entities.Tarifa)">
+            <summary>
+            Actualiza una tarifa existente
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Parking.API.Controllers.VehiculoController.Create(ParkingManager.Core.Entities.Vehiculo)" -->
+        <!-- Badly formed XML comment ignored for member "M:Parking.API.Controllers.VehiculoController.GetById(System.Int32)" -->
     </members>
 </doc>

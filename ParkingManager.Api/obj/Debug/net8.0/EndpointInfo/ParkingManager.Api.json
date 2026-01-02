@@ -15,6 +15,7 @@
         "tags": [
           "Disponibilidad"
         ],
+        "summary": "Crea una nueva disponibilidad de espacio",
         "requestBody": {
           "content": {
             "application/json": {
@@ -46,6 +47,7 @@
         "tags": [
           "Disponibilidad"
         ],
+        "summary": "Obtiene solo los espacios disponibles en una zona específica, ejemplo: ZonaA",
         "parameters": [
           {
             "name": "zona",
@@ -132,6 +134,7 @@
         "tags": [
           "Registro"
         ],
+        "summary": "Registra la entrada de un vehículo al estacionamiento",
         "requestBody": {
           "content": {
             "application/json": {
@@ -163,6 +166,7 @@
         "tags": [
           "Registro"
         ],
+        "summary": "Registra la salida de un vehículo del estacionamiento",
         "parameters": [
           {
             "name": "id",
@@ -186,6 +190,7 @@
         "tags": [
           "Registro"
         ],
+        "summary": "Obtiene un registro por su ID",
         "parameters": [
           {
             "name": "id",
@@ -255,6 +260,7 @@
         "tags": [
           "Tarifa"
         ],
+        "summary": "Obtiene todas las tarifas con filtros opcionales",
         "parameters": [
           {
             "name": "TipoVehiculo",
@@ -301,6 +307,7 @@
         "tags": [
           "Tarifa"
         ],
+        "summary": "Crea una nueva tarifa",
         "requestBody": {
           "content": {
             "application/json": {
@@ -332,6 +339,7 @@
         "tags": [
           "Tarifa"
         ],
+        "summary": "Obtiene una tarifa por su ID",
         "parameters": [
           {
             "name": "id",
@@ -353,6 +361,7 @@
         "tags": [
           "Tarifa"
         ],
+        "summary": "Actualiza una tarifa existente",
         "parameters": [
           {
             "name": "id",
@@ -395,6 +404,7 @@
         "tags": [
           "TestDb"
         ],
+        "summary": "Verifica la conexión con la base de datos",
         "responses": {
           "200": {
             "description": "OK"
@@ -420,6 +430,7 @@
         "tags": [
           "Token"
         ],
+        "summary": "Autentica un usuario y genera un token JWT",
         "requestBody": {
           "content": {
             "application/json": {

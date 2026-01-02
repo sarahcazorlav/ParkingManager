@@ -16,6 +16,9 @@ namespace Parking.API.Controllers
             _tarifaService = tarifaService;
         }
 
+        /// <summary>
+        /// Obtiene todas las tarifas con filtros opcionales
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] TarifaQueryFilter filters)
         {
@@ -23,6 +26,9 @@ namespace Parking.API.Controllers
             return Ok(tarifas);
         }
 
+        /// <summary>
+        /// Obtiene una tarifa por su ID
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTarifaById(int id)
         {
@@ -31,6 +37,9 @@ namespace Parking.API.Controllers
             return Ok(tarifa);
         }
 
+        /// <summary>
+        /// Crea una nueva tarifa
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Tarifa tarifa)
         {
@@ -43,7 +52,9 @@ namespace Parking.API.Controllers
             );
         }
 
-
+        /// <summary>
+        /// Actualiza una tarifa existente
+        /// </summary>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Tarifa tarifa)
         {

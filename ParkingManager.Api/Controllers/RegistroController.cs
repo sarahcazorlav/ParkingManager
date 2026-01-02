@@ -15,6 +15,9 @@ namespace Parking.API.Controllers
             _registroService = registroService;
         }
 
+        /// <summary>
+        /// Registra la entrada de un vehículo al estacionamiento
+        /// </summary>
         [HttpPost("entrada")]
         public async Task<IActionResult> RegistrarEntrada([FromBody] Registro registro)
         {
@@ -25,6 +28,9 @@ namespace Parking.API.Controllers
                 creado);
         }
 
+        /// <summary>
+        /// Registra la salida de un vehículo del estacionamiento
+        /// </summary>
         [HttpPut("salida/{id}")]
         public async Task<IActionResult> RegistrarSalida(int id)
         {
@@ -32,6 +38,9 @@ namespace Parking.API.Controllers
             return Ok(registro);
         }
 
+        /// <summary>
+        /// Obtiene un registro por su ID
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

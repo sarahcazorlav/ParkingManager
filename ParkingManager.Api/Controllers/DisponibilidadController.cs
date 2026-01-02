@@ -18,6 +18,9 @@ namespace ParkingManager.Api.Controllers
             _service = service;
         }
 
+        /// <summary>
+        /// Crea una nueva disponibilidad de espacio
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Disponibilidad disponibilidad)
         {
@@ -30,6 +33,9 @@ namespace ParkingManager.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// Obtiene solo los espacios disponibles en una zona específica, ejemplo: ZonaA
+        /// </summary>
         [HttpGet("zona/{zona}")]
         public async Task<IActionResult> GetPorZona(string zona)
         {

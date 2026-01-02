@@ -15,6 +15,9 @@ namespace Parking.API.Controllers
             _vehiculoService = vehiculoService;
         }
 
+        /// <summary>
+        /// Crea un nuevo vehículo
+        /// <summary>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Vehiculo vehiculo)
         {
@@ -24,6 +27,9 @@ namespace Parking.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = vehiculo.Id }, vehiculo);
         }
 
+        /// <summary>
+        /// Obtiene un vehículo por su ID
+        /// <summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

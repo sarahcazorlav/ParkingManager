@@ -108,7 +108,9 @@ namespace ParkingManager.Api.Controllers
             return masked;
         }
 
-
+        /// <summary>
+        /// Autentica un usuario y genera un token JWT
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> Authentication([FromBody] UserLogin userLogin)
         {

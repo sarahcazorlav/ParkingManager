@@ -14,6 +14,9 @@ namespace ParkingManager.Api.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Verifica la conexión con la base de datos
+        /// </summary>
         [HttpGet("check")]
         public IActionResult CheckConnection()
         {
